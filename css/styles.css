@@ -1,0 +1,552 @@
+/*!
+
+Copyright (C) 2014, Nurbink Design (LLP).
+Author & Design: Nubrink Design (LLP)
+For details, http://www.nubrink.com
+ 
+NOTICE OF LICENSE
+Licensed under Creative Commons | Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+*/
+
+
+@import url("http://fonts.googleapis.com/css?family=Orbitron:400,500,900,700");
+@import url("http://fonts.googleapis.com/css?family=Carme");
+@import url ("http://fonts.googleapis.com/css?family=Oswald:400,700,300");
+@import url ("http://fonts.googleapis.com/css?family=Lusitana:400,700");
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic");
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("http://fonts.googleapis.com/css?family=Play:400,700");
+@import url("http://fonts.googleapis.com/css?family=Satisfy");
+@import url("http://fonts.googleapis.com/css?family=Anton");
+@import url("http://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("http://fonts.googleapis.com/css?family=Dancing+Script");
+
+@font-family: 'Orbitron', sans-serif;
+@font-family: 'Carme', sans-serif;
+@font-family: 'Oswald', sans-serif;
+@font-family: 'Lusitana', serif;
+@font-family: 'Playfair Display', serif;
+@font-family: 'Montserrat', sans-serif;
+@font-family: 'Play', sans-serif;
+@font-family: 'Satisfy', cursive;
+@font-family: 'Anton', sans-serif;
+@font-family: 'Great Vibes', cursive;
+@font-family: 'Dancing Script', cursive;
+
+body {
+    width: 100%;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+/*Theme and Brand Colours
+1. #00A79D 
+2. #D9230F 
+3. #008B83 
+*/
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+
+/*===========================
+  Header
+=========================== */
+.xmasbanner{
+  padding-top:90px;
+	padding-bottom:50px;
+background: rgba(209,7,7,1);
+/* Old Browsers */background: -moz-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+ /* FF3.6+ */background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(209,7,7,1)), color-stop(58%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+/* Chrome, Safari4+ */background: -webkit-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+ /* Chrome10+,Safari5.1+ */background: -o-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+ /* Opera 11.10+ */background: -ms-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+ /* IE 10+ */background: radial-gradient(ellipse at center, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+/* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d10707', endColorstr='#6d0019', GradientType=1 );
+/* IE6-9 fallback on horizontal gradient */
+}
+
+.intro-section {
+	}
+
+.logobackdrop{
+    padding-top:90px;
+	padding-bottom:50px;
+	text-align:center;
+background: rgba(209,7,7,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(209,7,7,1)), color-stop(58%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+background: radial-gradient(ellipse at center, rgba(209,7,7,1) 0%, rgba(143,2,34,1) 58%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d10707', endColorstr='#6d0019', GradientType=1 );
+}
+
+
+.xfont{
+font-family: 'Dancing Script', cursive;
+}
+
+
+/*===========================
+  About
+=========================== */
+.about-section {
+    padding-top:100px;
+	padding-bottom:50px;
+}
+
+/*===========================
+  Services
+=========================== */
+.services-section {
+height:100%;
+}
+
+.greenblock{
+padding-top:120px;
+margin-bottom: -1px;
+background-color: #00A79D;
+}
+
+.litegreyblock {
+padding-top:30px;
+	padding-bottom:30px;
+background-color:#fcfcfc;
+}
+.sans-M {
+letter-spacing: -1px;
+line-height:10px;
+}
+
+.sans-L{
+font-size: 60px;
+font-family:  'Montserrat', sans-serif;
+font-weight: 700;
+letter-spacing: -1px;
+line-height:35px;
+}
+
+/* Services Icon */
+.icon-md {
+  font-size: 36px;
+  height: 68px;
+  width: 68px;
+  line-height: 68px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #008B83;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
+
+.services .media:hover .icon-md {
+border-radius: 10px;
+background-color: #00A79D;
+}
+
+
+
+/*===========================
+  Story
+=========================== */
+.story-section {
+    padding-top:150px;
+	padding-bottom:100px;
+background-color: #ffffff;
+}
+
+
+.serif-XXL{
+font-size: 250px;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+letter-spacing: -1px;
+line-height:45px;
+margin-bottom:110px;
+}
+
+.serif-XL{
+font-size: 65px;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+letter-spacing: -1px;
+line-height:30px;
+}
+
+.serif-L{
+font-size: 35px;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+letter-spacing: -1px;
+line-height:30px;
+}
+
+.serif-M{
+color:#000000;
+font-size: 25px;
+font-family: 'Playfair Display', serif;
+letter-spacing: -1px;
+line-height:45px;
+}
+
+
+.pic-section {
+    padding-top:150px;
+	padding-bottom:10px;
+background-color: #ffffff;
+}
+
+.article2-section {
+    padding-top:150px;
+	padding-bottom:100px;
+	background:#fcfcfc;
+}
+
+/*===========================
+  Team
+=========================== */
+.team-section {
+    padding-top:75px;
+	padding-bottom:75px;
+background-color: #ffffff;
+}
+
+/* Profile Image */
+
+.team-detail {
+	margin-bottom: 30px;
+}
+
+
+.imgcircle {
+width: 100px;
+height: 100px;
+margin: 0 auto 20px;
+text-align: center;
+border: 2px solid #00A79D;
+border-radius: 50px;
+line-height: 95px;
+text-transform: uppercase;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+
+.imgtri {
+    position:relative;
+	width: 0px;
+	height: 0px;
+    padding: 0px; 
+    -webkit-transform: rotate(0deg); 
+    transform: rotate(0deg);
+    border-top: 200px solid #00A79D; 
+    border-left: 100px solid transparent; 
+    border-right: 100px solid transparent;
+		margin-bottom: 30px;
+		text-align:center;
+}
+
+
+/*===========================
+  Portfolio
+=========================== */
+.portfolio-section {
+    padding-top:100px;
+	padding-bottom:50px;
+background-color: #ffffff;background-image:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMDAnIGhlaWdodD0nMzAwJyB2aWV3Qm94PScwIDAgMzAwIDMwMCc+Cgk8ZGVmcz4KCQk8cGF0dGVybiBpZD0nYmx1ZXN0cmlwZScgcGF0dGVyblVuaXRzPSd1c2VyU3BhY2VPblVzZScgeD0nMCcgeT0nMCcgd2lkdGg9JzIwJyBoZWlnaHQ9JzIwJyB2aWV3Qm94PScwIDAgNDAgNDAnID4KCQk8cmVjdCB3aWR0aD0nMTEwJScgaGVpZ2h0PScxMTAlJyBmaWxsPScjZmZmZmZmJy8+CgkJCTxwYXRoIGQ9J00xLDFoNDB2NDBoLTQwdi00MCcgZmlsbC1vcGFjaXR5PScwJyBzdHJva2Utd2lkdGg9JzEnIHN0cm9rZS1kYXNoYXJyYXk9JzAsMSwxJyBzdHJva2U9JyNjY2NjY2MnLz4KCQk8L3BhdHRlcm4+IAoJCTxmaWx0ZXIgaWQ9J2Z1enonIHg9JzAnIHk9JzAnPgoJCQk8ZmVUdXJidWxlbmNlIHR5cGU9J3R1cmJ1bGVuY2UnIHJlc3VsdD0ndCcgYmFzZUZyZXF1ZW5jeT0nLjIgLjMnIG51bU9jdGF2ZXM9JzUnIHN0aXRjaFRpbGVzPSdzdGl0Y2gnLz4KCQkJPGZlQ29sb3JNYXRyaXggdHlwZT0nc2F0dXJhdGUnIGluPSd0JyB2YWx1ZXM9JzAnLz4KCQk8L2ZpbHRlcj4KCTwvZGVmcz4KCTxyZWN0IHdpZHRoPScxMDAlJyBoZWlnaHQ9JzEwMCUnIGZpbGw9J3VybCgjYmx1ZXN0cmlwZSknLz4KPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsdGVyPSd1cmwoI2Z1enopJyBvcGFjaXR5PScwLjEnLz4KPC9zdmc+Cg==');
+
+}
+
+
+.retro-L {
+	font-family: 'Satisfy', cursive;
+	font-size:45px;
+	line-height:25px;
+	letter-spacing: -1px;
+}
+
+/*===========================
+  Design Translated
+=========================== */
+.translative-section {
+    padding-top:100px;
+	padding-bottom:20px;
+	background-color:#0C0C0C;
+	background-size:16px 16px;
+	color:#fff;
+}
+
+.articles-section {
+    padding-top:50px;
+	padding-bottom:100px;
+	background:#fff;
+}
+
+
+/*===========================
+  Contact
+=========================== */
+.contact-section {
+    padding-top:50px;
+	padding-bottom:50px;
+    text-align: center;
+    background-color:#00A79D;
+	
+}
+
+/*===========================
+  Footer
+=========================== */
+.footer-section {
+    padding-top:50px;
+	padding-bottom:50px;
+    background:#333;
+	
+}
+
+/* Sub Footer - Quick Reads */
+
+.subfooter-section {
+    padding-top:50px;
+	padding-bottom:50px;
+    background:#008B83;
+	text-align:center;
+	}
+	
+.quickicons {
+margin-bottom: 10px;
+}
+
+/*===========================
+  Font Colours, Size and Styles
+=========================== */
+
+.red {
+	color:#D9230F;
+}
+
+.grey {
+	color:#ccc;
+}
+
+.white {
+	color:#fff;
+}
+
+.black {
+	color:#000;
+}
+
+.turquoise{
+	color:#00A79D;
+}
+
+.darkturquoise{
+	color:#008B83;
+}
+
+.bold400 {
+font-weight:400;
+}
+
+.pt15{
+font-size:15px;
+}
+
+.pt30{
+font-size:30px;
+}
+/*===========================
+  Spacers
+=========================== */
+
+hr.dotted {
+	border-color: #ddd;
+	border-style: dashed;
+}
+
+hr.space {
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
+}
+
+.vr {
+border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/*===========================
+  Alignments
+=========================== */
+
+.align-left {
+text-align:left;
+}
+
+.align-right {
+text-align:right;
+}
+
+.align-center{
+text-align:center;
+}
+
+
+/*===========================
+  Paddings
+=========================== */
+
+.padbtm30{
+padding-bottom:30px;
+}
+
+
+
+/*===========================
+  Margins
+=========================== */
+.marleft20{
+margin-left:20px;
+}
+
+
+/*===========================
+  Scroll - Up
+=========================== */
+
+a.scrollup{
+	height:32px;
+	width:32px;
+	color:#fff;
+	font-size:18px;
+	line-height:32px;
+	text-align:center;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:9999;
+	opacity:0.5;
+}
+a.scrollup:hover{
+	opacity:1;
+	color:#fff;
+}
+
+/*===========================
+  Media Queries
+=========================== */
+
+@media (max-width: 767px) {
+.serif-XXL{
+font-size: 250px;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+letter-spacing: -1px;
+line-height:45px;
+}
+
+.serif-L{
+font-size: 25px;
+font-family: 'Playfair Display', serif;
+font-weight: 400;
+letter-spacing: -1px;
+line-height:15px;
+}
+
+.serif-M{
+font-size: 15px;
+font-family: 'Playfair Display', serif;
+letter-spacing: -1px;
+line-height:25px;
+	}
+
+.retro-L {
+	font-family: 'Satisfy', cursive;
+	font-size:35px;
+	line-height:25px;
+	letter-spacing: -1px;
+}
+
+.sans-M {
+	letter-spacing: -1px;
+	line-height:10px;
+	font-size:25px;
+	font-weight:200;
+}
+
+
+}
+
+/*===========================
+  Bars
+=========================== */
+.parabar {
+	padding-bottom:5px;
+	padding-top: 5px;
+    background:#333;
+	}
+	
+.quotebar{
+	padding-bottom:20px;
+	padding-top: 20px;
+background-color:#333;
+}
+
+
+
+
+/*===========================
+ Carousels 
+=========================== */
+/*Quote Carousels*/
+
+#quote-carousel {
+}
+
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 0px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* Services Carousels */
+#barx-carousel {
+}

@@ -1,0 +1,168 @@
+/*!
+
+Copyright (C) 2014, Nurbink Design (LLP).
+Author & Design: Nubrink Design (LLP)
+For details, http://www.nubrink.com
+ 
+NOTICE OF LICENSE
+Licensed under Creative Commons | Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+*/
+
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@font-face{
+	src:url("fonts/pictos-regular-webfont.ttf") format("truetype"),
+		url("fonts/pictos-regular-webfont.otf") format("opentype"),
+		url("fonts/pictos-regular-webfont.svg") format("svg");
+	font-family:icon;
+}
+
+body {
+    width: 100%;
+
+}
+
+html {
+    width: 100%;
+    height: 100%;
+	background-color:#fcfcfc;
+}
+
+
+/*===========================
+  Header
+=========================== */
+.mail-section {
+    padding-top:150px;
+	padding-bottom:100px;
+
+
+}
+
+.box {
+    padding-top:30px;
+	padding-bottom:50px;
+background:#008B83;
+	border-radius: 10px;
+		-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 15px rgba(0,0,0,0.1);
+}
+
+
+
+/*===========================
+  Font Colours, Size and Styles
+=========================== */
+
+.red {
+	color:#D9230F;
+}
+
+.grey {
+	color:#ccc;
+}
+
+.darkgrey {
+	color:#333;
+}
+
+.white {
+	color:#fff;
+}
+
+.black {
+	color:#000;
+}
+
+.turquoise{
+	color:#00A79D;
+}
+
+.darkturquoise{
+	color:#008B83;
+}
+
+.bold400 {
+font-weight:400;
+}
+
+.pt15{
+font-size:15px;
+}
+
+.pt30{
+font-size:30px;
+}
+
+/*===========================
+  Spacers
+=========================== */
+
+hr.dotted {
+	border-color: #ddd;
+	border-style: dashed;
+}
+
+hr.space {
+	width: 200px;
+	border-top: 3px solid #e7e7e7;
+}
+
+.vr {
+border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+
+/*===========================
+  Alignments
+=========================== */
+
+.align-left {
+text-align:left;
+}
+
+.align-right {
+text-align:right;
+}
+
+.align-center{
+text-align:center;
+}
+
+
+/*===========================
+  Paddings
+=========================== */
+.padbtm10{
+padding-bottom:10px;
+}
+.padbtm30{
+padding-bottom:30px;
+}
+
+.padtop20{
+padding-top:20px;
+}
+
+.padtop10{
+padding-top:10px;
+}
+
+/*===========================
+  Margins
+=========================== */
+.marleft20{
+margin-left:20px;
+}
+
+.mar-center {
+margin-left:10%;
+margin-right:10%;
+}
+
+
+/*===========================
+  Form
+=========================== */
+
