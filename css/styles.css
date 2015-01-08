@@ -265,7 +265,21 @@ text-transform: uppercase;
 		text-align:center;
 }
 
+ul.social-buttons {
+padding-top:10px;
+margin-bottom: 0;
+font-size: 20px;
+}
 
+.social-btn{display: inline-block;
+width: 35px;
+height: 35px;
+border: 1px solid #CCC;
+border-radius: 100%;
+text-align: center;
+line-height: 34px;
+background-color:#333;
+}
 /*===========================
   Portfolio
 =========================== */
@@ -362,6 +376,10 @@ margin-bottom: 10px;
 
 .darkturquoise{
 	color:#008B83;
+}
+
+.darkgrey{
+color:#333;
 }
 
 .bold400 {
