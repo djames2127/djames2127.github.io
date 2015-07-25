@@ -1,0 +1,31 @@
+/*** CONTENT OF 'print.css' ***/
+ 
+/* Import original css file */
+@import url('bootstrap.css');
+ 
+/* Constrict document to 650 pixels and remove border */
+#wrapper
+{
+  border: 0;
+  width: 650px !important;
+}
+ 
+/* Remove navigation, header, footer and unecessary images and elements */
+.noprint
+{
+  display: none;
+}
+ 
+/* White backgrounds, black text and black borders */
+*
+{
+  border-color: #000 !important;
+  background-color: #FFF !important;
+  color: #000 !important;
+}
+ 
+/* Underline all anchors */
+a
+{
+  text-decoration: underline !important;
+}
