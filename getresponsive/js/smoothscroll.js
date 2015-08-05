@@ -1,0 +1,67 @@
+//jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});
+
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+});
+
+$(function() {
+    $('.nav a').on('click', function(){ 
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
+});
+
+
+
+//Bootstrap Multiple Expand/Collapse
+$(function () {			
+                    $('a[data-toggle="collapse"]').on('click',function(){
+				
+				var objectID=$(this).attr('href');
+				
+				if($(objectID).hasClass('in'))
+				{
+                                    $(objectID).collapse('hide');
+				}
+				
+				else{
+                                    $(objectID).collapse('show');
+				}
+                    });
+                    
+                    
+                    $('#expandAll').on('click',function(){
+                        
+                        $('a[data-toggle="collapse"]').each(function(){
+                            var objectID=$(this).attr('href');
+                            if($(objectID).hasClass('in')===false)
+                            {
+                                 $(objectID).collapse('show');
+                            }
+                        });
+                    });
+                    
+                    $('#collapseAll').on('click',function(){
+                        
+                        $('a[data-toggle="collapse"]').each(function(){
+                            var objectID=$(this).attr('href');
+                            $(objectID).collapse('hide');
+                        });
+                    });
+                    
+		});
