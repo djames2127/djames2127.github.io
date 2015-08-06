@@ -596,7 +596,9 @@ SECTIONS
 .submit .overlay {
   background: rgba(244, 244, 244, 0.85);
 }
+
 .about {
-  background-color: #0196a7;
+  background-color: #008B83;
+    color: #fff;
   padding: 40px 0 50px;
 }

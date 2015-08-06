@@ -137,16 +137,16 @@
   .about-us .jumbo-text {
     font-size: 32px;
   }
-  .processes .process-bar.main-bg {
+  .howtos .process-bar.main-bg {
     margin-right: 40px;
   }
-  .processes .lines {
+  .howtos .lines {
     width: 50px;
   }
-  .processes .icon-container {
+  .howtos .icon-container {
     margin-right: 0;
   }
-  .processes .description {
+  .howtos .description {
     width: 85%;
   }
   .promote span {
