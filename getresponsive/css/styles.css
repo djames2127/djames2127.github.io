@@ -144,6 +144,7 @@ h6 {
   width: 80px;
   height: 2px;
   margin-top: 15px;
+  background: #0196a7;
 }
 .button.light {
   border: 2px solid #eeeeee;
@@ -381,67 +382,67 @@ header .active {
 
 
 /* ========================================================================
-  2.4 Component: Case Study
+QUICK LINKS
  ========================================================================== */
-.case-study .col-md-6 {
+.quicklinks .col-md-6 {
   padding: 0;
   cursor: pointer;
   color: #fff;
   transition: background .5s;
 }
-.case-study-left .overlay {
+.quicklinks-left .overlay {
   padding-left: 200px;
   padding-right: 50px;
   transition: background .5s;
 }
-.case-study-right .overlay {
+.quicklinks-right .overlay {
   padding-right: 200px;
   padding-left: 50px;
   transition: background .5s;
 }
-.case-study .case-study-left {
+.quicklinks .quicklinks-left {
   background: url("../img/bf-left.jpg") no-repeat;
   background-size: cover;
 }
-.case-study .case-study-right {
+.quicklinks .quicklinks-right {
   background: url("../img/bf-right.jpg") no-repeat;
   background-size: cover;
 }
-.case-study .overlay:hover {
+.quicklinks .overlay:hover {
   width: 100%;
   background: rgba(1, 150, 167, 0.9);
 }
-.case-study h3 {
+.quicklinks h3 {
   text-shadow: 1px 1px 1px #444;
   font-size: 28px;
   font-weight: bold;
 }
-.case-study .description {
+.quicklinks .description {
   font-weight: lighter;
 }
 
-.case-study a {
+.quicklinks a {
     color: #fff;
 }
 
 
 
 /* ========================================================================
-HOWTOS
+SIMPLE STEPS
  ========================================================================== */
-.howtos {
+.simple-steps {
   background: url("../img/4.jpg") no-repeat center fixed;
   background-size: cover;
   color: #fffeff;
 }
-.howtos .overlay {
+.simple-steps .overlay {
   background: rgba(0, 8, 5, 0.85);
 }
-.howtos .icon-container {
+.simple-steps .icon-container {
   margin-right: 25px;
   font-size: 24px;
 }
-.howtos .three-steps {
+.simple-steps .three-steps {
   margin: auto;
   padding-left: 37px;
   padding-right: 37px;
@@ -450,7 +451,7 @@ HOWTOS
 .three-steps:last-child {
   margin-bottom: 0;
 }
-.howtos .description {
+.simple-steps .description {
   width: 90%;
 }
 
@@ -601,4 +602,87 @@ SECTIONS
   background-color: #008B83;
     color: #fff;
   padding: 40px 0 50px;
+}
+
+
+/* ========================================================================
+WHAT'S RESPONSIVE WEB DESIGN?
+ ========================================================================== */
+.whatis {
+    background-color: #f9f9f9;
+    padding-top: 100px;
+}
+.whatis .icon {
+  font-size: 35px;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border: 1px solid #efefef;
+  display: inline-block;
+  border-radius: 4px;
+}
+.whatis .icon i {
+  color: #0196a7;
+}
+.whatis h4 {
+  margin: 15px 0 20px;
+  color: #000;
+}
+.whatis p {
+  color: #aaaaaa;
+}
+.whatis .tools {
+  padding: 5px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.whatis .tools:hover > .icon {
+  background: #0196a7;
+  color: #fff;
+  transition: all .85s;
+}
+.whatis .tools:hover > .icon i {
+  color: #fff;
+  transition: all .85s;
+}
+
+
+/* ========================================================================
+CAROUSEL FADE IN/OUT
+ ========================================================================== */
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out .8s;
+  -o-transition: opacity ease-in-out .8s;
+  -webkit-transition: opacity ease-in-out .8s;
+  transition: opacity ease-in-out .8s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
+}
+.carousel.fade .item:first-child {
+  top:auto;
+  position:relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .8s;
+  -o-transition: opacity ease-in-out .8s;
+  -webkit-transition: opacity ease-in-out .8s;
+  transition: opacity ease-in-out .8s;
+  z-index:2;
+}
+
+/* ========================================================================
+BREAKS
+ ========================================================================== */
+
+.textbreak {
+  margin-bottom: 50px;
 }
