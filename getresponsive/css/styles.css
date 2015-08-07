@@ -598,15 +598,27 @@ SECTIONS
   background: rgba(244, 244, 244, 0.85);
 }
 
+/* ========================================================================
+ABOUT THE CAMPAIGN
+ ========================================================================== */
 .about {
-  background-color: #008B83;
-    color: #fff;
-  padding: 40px 0 50px;
+    background-color: #f9f9f9;
+    padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.about h4 {
+  margin: 15px 0 20px;
+  color: #000;
+}
+.about p {
+  color: #aaaaaa;
 }
 
 
+
 /* ========================================================================
-WHAT'S RESPONSIVE WEB DESIGN?
+WHAT'S RESPONSIVE
  ========================================================================== */
 .whatis {
     background-color: #f9f9f9;
