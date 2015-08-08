@@ -15,7 +15,7 @@ Licensed under Creative Commons | Creative Commons Attribution-NonCommercial-NoD
     1. #323a45
     2. #1c222c
     3. #18bc9c
-    4. #0196a7
+    4. #0196a7 - Primary Colour
     5. #00A79D - Nubrink Green 
     6. #D9230F - Nubrink Red
     7. #008B83 
@@ -118,9 +118,7 @@ h6 {
 .main-bg {
   background: #0196a7;
 }
-.main-color {
-  color: #0196a7;
-}
+
 .white-color {
   color: #fff;
 }
@@ -609,7 +607,6 @@ ABOUT THE CAMPAIGN
 
 .about h4 {
   margin: 15px 0 20px;
-  color: #000;
 }
 .about p {
   color: #aaaaaa;
@@ -695,10 +692,6 @@ CAROUSEL FADE IN/OUT
 BREAKS
  ========================================================================== */
 
-.textbreak {
-  margin-bottom: 50px;
-}
-
 
 
 /* ========================================================================
@@ -718,8 +711,9 @@ Accordion
 }
 .panel-heading {
   padding: 0;
+  cursor: pointer;
 }
-.panel-title > a {
+.panel-title {
   text-decoration: none;
   display: block;
   width: 100%;
@@ -729,11 +723,35 @@ Accordion
   background: #ededed !important;
   color: #222;
 }
-.collapsed strong,
-.collapsed .state {
+.collapsed h2 {
   color: #222222;
 }
-.state {
-  font-size: 18px;
-  line-height: 18px;
+
+
+/* Font Awesome Chevron Icons */
+ .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family:'FontAwesome';
+    content:"\f146";
+    float: right;
+    color: inherit;
 }
+.panel-heading.collapsed .accordion-toggle:after {
+    /* symbol for "collapsed" panels */
+    content:"\f0fe";
+}
+
+
+
+/* ========================================================================
+FONTS/BREAKS/MARGINS
+ ========================================================================== */
+
+.primary-colour {
+  color: #0196a7;
+}
+
+.textbreak {
+  margin-bottom: 50px;
+}
+
