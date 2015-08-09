@@ -20,12 +20,13 @@
   .button.light {
     padding: 18px 40px;
   }
-  .quicklinks-left .overlay {
+  .left .overlay {
     padding-left: 100px;
   }
-  .quicklinks-right .overlay {
+  .right .overlay {
     padding-right: 100px;
   }
+    
   .button-container {
     margin-top: 15px;
   }
