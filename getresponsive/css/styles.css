@@ -649,9 +649,18 @@ FOOTER
 PARALLAX
  ========================================================================== */
 
-.tag {
+.tag1 {
   background-color: #f9f9f9;
   padding: 40px 0 50px;
+}
+
+.tag {
+  background: url("../img/4.jpg") no-repeat center fixed;
+  background-size: cover;
+  color: #fffeff;
+}
+.tag .overlay {
+  background: rgba(0, 0, 0, 0.80);
 }
 
 .submit {
@@ -663,7 +672,7 @@ PARALLAX
 }
 
 /* ========================================================================
-ARTICLE AND SECTION CLASSES
+ARTICLE AND SECTION CLASSES 
  ========================================================================== */
 .section {
     background-color: #f9f9f9;
@@ -674,10 +683,15 @@ ARTICLE AND SECTION CLASSES
 .section h4 {
   margin: 15px 0 20px;
 }
+
+.section h4:hover {
+color: #1c222c;
+
+}
+
 .section p {
   color: #aaaaaa;
 }
-
 
 
 /* ========================================================================
@@ -750,9 +764,6 @@ CAROUSEL FADE IN/OUT
   z-index:2;
 }
 
-/* ========================================================================
-BREAKS
- ========================================================================== */
 
 
 
