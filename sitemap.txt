@@ -2,7 +2,6 @@ http://www.nubrink.com/index.html
 http://www.nubrink.com/web.html
 http://www.nubrink.com/graphic.html
 http://www.nubrink.com/about.html
-http://www.nubrink.com/getresponsive/index.html
 http://www.nubrink.com/contact.html
 http://www.nubrink.com/terms_conditions.html
 http://www.nubrink.com/sitemap.html
