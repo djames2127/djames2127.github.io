@@ -1,3 +1,4 @@
+
 /*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -34,3 +35,19 @@ $('.navbar-collapse ul li a').click(function() {
     $(this).closest('.collapse').collapse('toggle');
 });
 
+
+// jQuery to switch the navbar icon onClick
+// Get the button, and when the user clicks on it, execute myFunction
+
+
+$(function() {
+  var box = $('.navbar-custom ');
+  var button = $('.navbar-custom button');
+  button.on('click', function(){
+	box.toggleClass('active');
+    if(box.hasClass('active'))
+      $(".navbar-fixed-top").addClass("top-nav-collapse");
+    else
+       $(".navbar-fixed-top").addClass("top-nav-collapse");
+  });
+});
