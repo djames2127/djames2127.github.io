@@ -1,6 +1,5 @@
 User-Agent: *
 Disallow: 
-Disallow: /terms_conditions.html
+Disallow: /terms.html
 Disallow: /faq.html
-Disallow: /privacy_policy.html
 Disallow: /img
