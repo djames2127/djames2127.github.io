@@ -2138,7 +2138,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 { 
 	
 	.heroimg1{
-	background-image: url(../img/hero/scaled/1.jpg);
+	background-image: url(../img/hero/1.jpg);
 	}}
 
 @media screen 
@@ -2148,7 +2148,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 { 
 	
 	.heroimg1{
-	background-image: url(../img/hero/scaled/1.jpg);
+	background-image: url(../img/hero/1.jpg);
 	}}
 
 .heroimg2{
@@ -2158,10 +2158,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 @media (max-width: 640px) {
 	.heroimg2{
 	background-image: url(../img/hero/2.jpg);
-}
-
-	
-}
+}}
 
 
 
