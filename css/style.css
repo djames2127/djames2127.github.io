@@ -2155,6 +2155,16 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 	background-image: url(../img/hero/2.jpg);
 }
 
+@media (max-width: 640px) {
+	.heroimg2{
+	background-image: url(../img/hero/2.jpg);
+}
+
+	
+}
+
+
+
 .heroimg3{
 	background-image: url(../img/hero/3.jpg);
 }
