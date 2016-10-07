@@ -2119,7 +2119,34 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     background-attachment: fixed;
 }
 
+.heroimg1, .heroimg2, .heroimg3, .heroimg4,{
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
+.heroimg1{
+	background-image: url(../img/hero/1.jpg);
+}
+@media (max-width: 640px) {
+.heroimg1{
+	background-image: url(../img/hero/scaled/1.jpg);
+}}
+
+
+
+.heroimg2{
+	background-image: url(../img/hero/2.jpg);
+}
+
+.heroimg3{
+	background-image: url(../img/hero/3.jpg);
+}
+
+.heroimg4{
+	background-image: url(../img/hero/4.jpg);
+}
 .border-b-box {
     padding: 25px;
     border-bottom: 1px solid #f1f1f1;
