@@ -2126,40 +2126,16 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     background-attachment: fixed;
 }
 
+/*backround images*/
+
 .heroimg1{
 	background-image: url(../img/hero/1.jpg);
 }
 
-@media screen 
-    and (min-device-width : 1080px) 
-    and (max-device-width : 1920px) 
-    and (min-resolution: 401dpi) 
-    and (device-aspect-ratio:16/9) 
-{ 
-	
-	.heroimg1{
-	background-image: url(../img/hero/1.jpg);
-	}}
-
-@media screen 
-    and (min-device-width : 750px) 
-    and (max-device-width : 1334px) 
-    and (min-resolution: 326dpi) 
-{ 
-	
-	.heroimg1{
-	background-image: url(../img/hero/1.jpg);
-	}}
 
 .heroimg2{
 	background-image: url(../img/hero/2.jpg);
 }
-
-@media (max-width: 640px) {
-	.heroimg2{
-	background-image: url(../img/hero/2.jpg);
-}}
-
 
 
 .heroimg3{
@@ -2169,6 +2145,37 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 .heroimg4{
 	background-image: url(../img/hero/4.jpg);
 }
+
+.heroimg5{
+	background-image: url(../img/hero/5.jpg);
+}
+
+
+/*backround images with Media Qs*/
+@media (max-width: 640px) {
+.heroimg1{
+	background-image: url(../img/hero/1.jpg);
+}}
+@media (max-width: 640px) {
+.heroimg2{
+	background-image: url(../img/hero/2.jpg);
+}}
+
+@media (max-width: 640px) {
+.heroimg3{
+	background-image: url(../img/hero/3.jpg);
+}}
+@media (max-width: 640px) {
+.heroimg4{
+	background-image: url(../img/hero/4.jpg);
+}}
+@media (max-width: 640px) {
+.heroimg5{
+	background-image: url(../img/hero/5.jpg);
+}}
+
+
+
 .border-b-box {
     padding: 25px;
     border-bottom: 1px solid #f1f1f1;
