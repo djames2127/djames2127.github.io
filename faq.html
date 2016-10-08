@@ -223,22 +223,7 @@ parent.findString(this.t1.value);return false;">
 <p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
 </div>
 </div>
-	
-<div class="accordion-section">
-<h6 class="accordion-title">But, WHY can't I find my own artist?</h6>
-<div class="accordion-content">
-<p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
-<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-</div>
-</div>
-	
-<div class="accordion-section">
-<h6 class="accordion-title">I'm a writer, not an illustrator. Do I need a dummy?</h6>
-<div class="accordion-content">
-<p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
-<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-</div>
-</div>
+
 </div>
 <!-- End Accordion -->
 </div>	
@@ -323,33 +308,11 @@ parent.findString(this.t1.value);return false;">
 </div>
 </div>
 	
-<div class="accordion-section">
-<h6 class="accordion-title">Speaking of copyright, how do I copyright my work so no one steals my idea?</h6>
-<div class="accordion-content">
-<p>Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel</p>
-<p>Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-</div>
-</div>
-                                
-<div class="accordion-section">
-<h6 class="accordion-title">When Is Payment Required For Your Web Site Design And Development Services?</h6>
-<div class="accordion-content">
-<p>For small projects, 50% of the estimated fee must be provided prior to beginning work, with the remaining payment due upon completion of the project. For larger projects, an initial payment representing one-third of the estimated total fee is required. The second payment is required upon the halfway point, with the final third due upon completion of the project.</p>
-</div>
-</div>
-	
 
 <div class="accordion-section">
 <h6 class="accordion-title">Why do I need to have a responsive website?</h6>
 <div class="accordion-content">
 <p>Besides desktops, web browsing on tablets and mobile phones is on the rise. Therefore, if you don’t have a responsive, mobile-friendly website in the technically advanced environment today, you risk losing valuable traffic, branding and business.</p>
-</div>
-</div>
-	
-<div class="accordion-section">
-<h6 class="accordion-title">How long will it take to launch my responsive website after the initial meeting?</h6>
-<div class="accordion-content">
-<p>The time it takes to produce a website depends on the size and complexity of your site, although the time frames vary, it typically takes an average 3-4 weeks from beginning to end to create a responsive website.</p>
 </div>
 </div>
 	
@@ -367,13 +330,6 @@ parent.findString(this.t1.value);return false;">
 <p>Yes, of course! We at Nubrink Design are here to not only create a responsive website from scratch, but also convert existing ones to become mobile-friendly.</p>
  </div>
 </div>
-
-<div class="accordion-section">
-<h6 class="accordion-title">What is Search Engine Optimisation (SEO)?</h6>
-<div class="accordion-content">
-<p>Search Engine Optimisation is all about getting your website higher up in the search results on search engines such as Google. The higher up the results you are the more traffic (and customers) you’re likely to get.</p>
- </div>
-</div>	
 
 <div class="accordion-section">
 <h6 class="accordion-title">How do I get started with my responsive website?</h6>
@@ -570,13 +526,11 @@ A <b>Nubrink Design</b> Experience.™
 <!-- END FIND A SOLUTION -->
 </div><!-- Close Overlay -->
 </header><!-- Close Header -->	
-	
-	
+		
 <!-- SCROLL TO TOP -->
 <a class="scroll-top"><i class="fa fa-angle-up"></i></a>
 <!-- END SCROLL TO TOP -->
 	
-
 <!-- JAVASCRIPTS/jQuery -->
 <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
 <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>	
@@ -589,7 +543,7 @@ A <b>Nubrink Design</b> Experience.™
 <script src="js/plugin/wow.min.js"></script>
 <script src="js/animated-jquery.js"></script>		
 <script src="js/plugin/jquery.colorbox-min.js"></script>		
-<script src="js/plugin/owl.carousel.js"></script>
+<script src="js/plugin/owl.carousel.min.js"></script>
 <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
 <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>		
 <script src="js/plugin/jquery.fs.tipper.min.js"></script>	
@@ -605,46 +559,6 @@ A <b>Nubrink Design</b> Experience.™
   var myHilitor = new Hilitor("content");
   myHilitor.apply("highlight words");
 
-</script>
-	
-<script>
-var TRange=null;
-
-function findString (str) {
- if (parseInt(navigator.appVersion)<4) return;
- var strFound;
- if (window.find) {
-
-  // CODE FOR BROWSERS THAT SUPPORT window.find
-
-  strFound=self.find(str);
-  if (!strFound) {
-   strFound=self.find(str,0,1);
-   while (self.find(str,0,1)) continue;
-  }
- }
- else if (navigator.appName.indexOf("Microsoft")!=-1) {
-
-  // EXPLORER-SPECIFIC CODE
-
-  if (TRange!=null) {
-   TRange.collapse(false);
-   strFound=TRange.findText(str);
-   if (strFound) TRange.select();
-  }
-  if (TRange==null || strFound==0) {
-   TRange=self.document.body.createTextRange();
-   strFound=TRange.findText(str);
-   if (strFound) TRange.select();
-  }
- }
- else if (navigator.appName=="Opera") {
-  alert ("Opera browsers not supported, sorry...")
-  return;
- }
- if (!strFound) alert ("String '"+str+"' not found!")
- return;
-}
 </script>	
 </body>
-</html> 
+</html>
