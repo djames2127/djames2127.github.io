@@ -2119,7 +2119,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     background-attachment: fixed;
 }
 
-.heroimg1, .heroimg2, .heroimg3, .heroimg4,{
+.heroimg1, .heroimg2, .heroimg3, .heroimg4, .heroimg5,{
     background-size: cover !important;
     background-position: center center;
     background-repeat: no-repeat;
@@ -2154,24 +2154,24 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 /*backround images with Media Qs*/
 @media (max-width: 640px) {
 .heroimg1{
-	background-image: url(../img/hero/1.jpg);
+	background-image: url(../img/hero/resize/1.jpg);
 }}
 @media (max-width: 640px) {
 .heroimg2{
-	background-image: url(../img/hero/2.jpg);
+	background-image: url(../img/hero/resize/2.jpg);
 }}
 
 @media (max-width: 640px) {
 .heroimg3{
-	background-image: url(../img/hero/3.jpg);
+	background-image: url(../img/hero/resize/3.jpg);
 }}
 @media (max-width: 640px) {
 .heroimg4{
-	background-image: url(../img/hero/4.jpg);
+	background-image: url(../img/hero/resize/4.jpg);
 }}
 @media (max-width: 640px) {
 .heroimg5{
-	background-image: url(../img/hero/5.jpg);
+	background-image: url(../img/hero/resize/5.jpg);
 }}
 
 
