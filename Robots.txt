@@ -1,4 +1,5 @@
 User-Agent: *
 Disallow: 
+Disallow: /terms.html
 Disallow: /faq.html
 Disallow: /img

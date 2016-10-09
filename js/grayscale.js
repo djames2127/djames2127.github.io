@@ -51,17 +51,3 @@ $(function() {
        $(".navbar-fixed-top").addClass("top-nav-collapse");
   });
 });
-
-
-$(function() {
-  $(".expand").on( "click", function() {
-    $(this).next().slideToggle(500);
-    $expand = $(this).find(">:first-child");
-    
-    if($expand.text() == "+") {
-      $expand.text("-");
-    } else {
-      $expand.text("+");
-    }
-  });
-});
