@@ -66,12 +66,3 @@ $(function() {
   });
 });
 
-
-
-$(document).ready(function(){
-
-/*! Fades in page on load */
-$('html, body').css('display', 'none');
-$('html, body').fadeIn(2500);
-
-});
