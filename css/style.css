@@ -1,3 +1,5 @@
+@import url("./plugin/flexslider.css");
+@import url("./plugin/owl.carousel.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700");
 
@@ -1097,7 +1099,7 @@ color: #fff;
 .navbar-custom .navbar-brand {
   float: left;
   height: 50px;
-  padding: 5px 5px;
+  padding: 0px 0px;
 }
 }
 
