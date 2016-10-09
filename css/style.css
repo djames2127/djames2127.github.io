@@ -443,101 +443,7 @@ button {
     display: inline-block;
 }
 
-/*Form Style   ||-----------*/
 
-button {
-    outline: none;
-    border: none;
-}
-
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
-    cursor: pointer;
-    display: inline-block;
-}
-
-button, input, textarea, select {
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-}
-
-    input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
-        appearance: none;
-        -webkit-appearance: none;
-        border: 1px solid #ddd;
-        -webkit-border-radius: 0px;
-        border-radius: 0px;
-        color: #888;
-        outline: none;
-        font-weight: 400;
-        letter-spacing: 1px;
-        font-size: 13px;
-        padding: 10px 15px;
-        transition: all 0.2s ease 0s;
-        -moz-transition: all 0.2s ease 0s;
-        -webkit-transition: all 0.2s ease 0s;
-        -o-transition: all 0.2s ease 0s;
-        display: inline-block;
-    }
-
-        input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus, input[type="password"]:focus, textarea:focus {
-            border-color: #00B4B4;
-            color: #323232;
-        }
-
-input, textarea, select {
-    margin-bottom: 20px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-}
-
-    input.input-sm, .input-sm {
-        padding: 8px 15px;
-    }
-
-textarea {
-    height: 120px;
-}
-
-label {
-    color: #323232;
-    font-size: 13px;
-    margin-bottom: 10px;
-    padding-right: 3px;
-    margin-top: 6px;
-    font-weight: 600;
-    font-family: 'Raleway', sans-serif;
-}
-
-.form-full {
-    width: 100%;
-}
-
-.form-field-wrapper {
-    margin-bottom: 20px;
-}
-
-    .form-field-wrapper input, .form-field-wrapper textarea, .form-field-wrapper select {
-        margin-bottom: 0px;
-    }
-
-form .error {
-    border-color: #e1534f;
-}
-
-form label.error {
-    margin-bottom: 0px;
-    margin-top: 3px;
-    color: #e1534f;
-    font-size: 12px;
-    font-weight: 400;
-}
-
-.successContent, .errorContent {
-    margin-bottom: 20px;
-    display: none;
-    text-transform: none;
-    letter-spacing: 1px;
-}
 
 /* Spacer Style   ||-----------*/
 
@@ -1204,20 +1110,7 @@ padding-top: 150px;
     /*letter-spacing: -2px;*/
 }
 
-.intro-title-sm {
-    font-size: 44px !important;
-    margin-top: 30px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
 
-.error-intro-title {
-    font-size: 100px;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 600;
-    line-height: 1.1;
-}
 
 .inner-intro {
     position: relative;
@@ -1530,41 +1423,7 @@ box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
     }
 
 
-/*-------------------------------------------------------------------------------------------*/
-/*  Accordion Tab    ||---------------------------- */
-/*-------------------------------------------------------------------------------------------*/
-.accordion-section {
-    border-top: 1px solid #f1f1f1;
-    border-left: 1px solid #f1f1f1;
-    border-right: 1px solid #f1f1f1;
-}
 
-    .accordion-section:last-child {
-        border-bottom: 1px solid #f1f1f1;
-    }
-
-.accordion-title {
-    cursor: pointer;
-    display: block;
-    position: relative;
-	text-transform:capitalize;
-}
-
-    .accordion-title.active {
-        /*background: #fafafa;*/
-        color: #00B4B4;
-    }
-
-
-.accordion-content.defualt-hidden {
-    display: none;
-    margin: 0;
-}
-
-.accordion-content {
-    padding: 0 20px 10px;
-	
-}
 
 /*-------------------------------------------------------------------------------------------*/
 /*  Pricing       ||---------------------------- */
@@ -2794,7 +2653,41 @@ ul.project-detail-block, .project-detail-block ul {
 
 
 
+/*-------------------------------------------------------------------------------------------*/
+/*  Accordion Tab    ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+.accordion-section {
+    border-top: 1px solid #f1f1f1;
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+}
 
+    .accordion-section:last-child {
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+.accordion-title {
+    cursor: pointer;
+    display: block;
+    position: relative;
+	text-transform:uppercase;
+}
+
+    .accordion-title.active {
+        /*background: #fafafa;*/
+        color: #00B4B4;
+    }
+
+
+.accordion-content.defualt-hidden {
+    display: none;
+    margin: 0;
+}
+
+.accordion-content {
+    padding: 0 20px 10px;
+	
+}
 
 /* Tabs panel */
 .tabbable-panel {
@@ -2846,16 +2739,16 @@ ul.project-detail-block, .project-detail-block ul {
 }
 
 
-#integration-list {
+#accordion-list {
     width: 100%;
     display: table;
 }
-#integration-list ul {
+#accordion-list ul {
     padding: 0;
     margin: 20px 0;
     color: #555;
 }
-#integration-list ul > li {
+#accordion-list ul > li {
     list-style: none;
     border-bottom: 1px solid #ddd;
     display: block;
@@ -2863,13 +2756,13 @@ ul.project-detail-block, .project-detail-block ul {
     overflow: hidden;
 }
 
-#integration-list h2 {
+#accordion-list h2 {
     padding: 0;
     margin: 0;
     font-size: 17px;
     font-weight: 400;
 }
-#integration-list a:active{
+#accordion-list a:active{
 	font-weight: 800;
 }
 
