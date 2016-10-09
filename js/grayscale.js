@@ -90,3 +90,24 @@ function findString (str) {
  if (!strFound) alert ("String '"+str+"' not found!")
  return;
 }
+
+
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+
+$(function() {
+  $(".expand").on( "click", function() {
+    $(this).next().slideToggle(500);
+    $expand = $(this).find(">:first-child");
+    
+    if($expand.text() == "+") {
+      $expand.text("-");
+    } else {
+      $expand.text("+");
+    }
+  });
+});
