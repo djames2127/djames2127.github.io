@@ -195,7 +195,7 @@
 /* ----------------------------------*/
 
 .ico-sm{
-	
+			font-size: 20px;
 }
 
 .ico-md{
@@ -294,51 +294,3 @@
 	background-repeat: no-repeat;
 }
 
-
-
-
-
-/* ----------------------------------*/
-/* LOGO STYLES */
-/* ----------------------------------*/
-
-/*Brand Logo   ||-----------*/
-.logo {
-    float: left;
-    text-align: left;
-    display: inline-block;
-}
-
-    .logo a {
-        width: 160px;
-        display: block;
-        margin-top: 34px;
-        /*margin-bottom: 28px;*/
-        transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-        -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-        -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-        -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-        position: relative;
-    }
-
-        .logo a img {
-            width: 100%;
-            position: absolute;
-            top: -11px;
-            left: 0;
-            transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-            -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-            -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-            -webkit-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
-        }
-
-/*Client Logo   ||-----------*/
-.client-logo {
-    height: 80px;
-    text-align: center;
-}
-
-    .client-logo img {
-        height: 100%;
-        width: auto;
-    }
