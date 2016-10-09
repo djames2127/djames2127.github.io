@@ -71,7 +71,7 @@ $(function() {
 $(document).ready(function(){
 
 /*! Fades in page on load */
-$('html').css('display', 'none');
-$('html').fadeIn(2000);
+$('html, body').css('display', 'none');
+$('html, body').fadeIn(2500);
 
 });
