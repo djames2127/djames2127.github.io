@@ -66,3 +66,14 @@ $(function() {
   });
 });
 
+$(document).ready(function(){
+	$('#nav-icon3').click(function(){
+		$(this).toggleClass('open');
+		$('.navbar-collapse li').on('click', function(){
+        $("#menu").hide();
+        $("#nav-icon3").removeClass("open");
+    });
+	});
+});
+
+
