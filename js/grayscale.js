@@ -77,3 +77,20 @@ $(document).ready(function(){
 });
 
 
+var target = document.getElementById('target');
+var titles = [
+    'Get Started',
+    'Kāishǐ',
+    'Get Started',
+	'Bermula',
+	'Toṭaṅkum',
+	'Get Started',
+	
+];
+
+function newTitle () {
+    var i = (Math.random() * titles.length) | 0;
+    target.innerText = titles[i];
+}
+
+newTitle(); 
