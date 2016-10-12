@@ -1222,6 +1222,7 @@ visibility: hidden;
     position: relative;
     width: 100%;
     display: block;
+		text-transform: uppercase;
 }
 	.footer h6{
 		text-transform: uppercase;
@@ -1276,9 +1277,15 @@ visibility: hidden;
 .footer,	
 .copyright {
     text-align: center;
+
 }
 }
 
+.copyright small{
+	color: #fff;
+	text-transform: capitalize;
+
+}
 
 /*================================================================================================*/
 /* SECTIONS         ||---------------------------- */
