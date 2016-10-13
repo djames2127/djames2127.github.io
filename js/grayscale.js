@@ -82,10 +82,9 @@ var titles = [
     'Get Started',
     'Kāishǐ',
     'Get Started',
-	'Bermula',
-	'Toṭaṅkum',
+	'Todaṅkum',
 	'Get Started',
-	
+	'Bermula',
 ];
 
 function newTitle () {
