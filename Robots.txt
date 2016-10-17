@@ -1,4 +1,8 @@
 User-Agent: *
+Allow: /brand.html
+Allow: /web.html
+Allow: /app.html
 Disallow: 
 Disallow: /faq.html
 Disallow: /img
+Disallow: /img/
