@@ -4,5 +4,6 @@ Allow: /web.html
 Allow: /app.html
 Disallow: 
 Disallow: /faq.html
+Disallow: /terms.html
 Disallow: /img
 Disallow: /img/
