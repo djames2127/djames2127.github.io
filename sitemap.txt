@@ -2,5 +2,5 @@ http://www.nubrink.com/index.html
 http://www.nubrink.com/brand.html
 http://www.nubrink.com/web.html
 http://www.nubrink.com/app.html
-http://www.nubrink.com/terms.html
 http://www.nubrink.com/faq.html
+http://www.nubrink.com/terms.html
