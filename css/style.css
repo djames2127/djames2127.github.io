@@ -1353,6 +1353,10 @@ section h2{
 	text-transform: uppercase;
 }
 
+#terms h5{
+	font-weight: 600;
+	text-transform: uppercase;
+}
 /*================================================================================================*/
 /* ELEMENTS          ||---------------------------- */
 /*================================================================================================*/
@@ -2931,4 +2935,64 @@ ul.project-detail-block, .project-detail-block ul {
   top: 18px;
   width: 0%;
   left: 50%;
+}
+
+
+
+
+
+
+
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+
+
+
+
+
+
+.sidebar-nav-fixed {
+  position: fixed;
+  top: 60px;
+  width:21.97%;
+}
+
+@media (max-width: 767px) {
+  .sidebar-nav-fixed{
+    width:auto;
+  }
+}
+
+@media (max-width: 979px) {
+  .sidebar-nav-fixed {
+    position: static;
+    width: auto;
+  }
 }
