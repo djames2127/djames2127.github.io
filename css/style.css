@@ -1333,11 +1333,6 @@ section h2{
 	text-transform: uppercase;
 }	
 
-#terms h5{
-		text-transform: uppercase;
-	font-weight: 800;
-}
-
 #statement h2{
 	color: #00B4B4;
 }
@@ -1353,7 +1348,7 @@ section h2{
 	text-transform: uppercase;
 }
 
-#terms h5{
+#terms h5, #privacy h5{
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -2939,10 +2934,9 @@ ul.project-detail-block, .project-detail-block ul {
 
 
 
-
-
-
-
+/*-------------------------------------------------------------------------------------------*/
+/*  Affix SideNav    ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
 
 .navbar-bright {
  background-color:#111155;
@@ -2970,29 +2964,4 @@ ul.project-detail-block, .project-detail-block ul {
 #sidebar li.active {
   border:0 #eee solid;
   border-right-width:5px;
-}
-
-
-
-
-
-
-
-.sidebar-nav-fixed {
-  position: fixed;
-  top: 60px;
-  width:21.97%;
-}
-
-@media (max-width: 767px) {
-  .sidebar-nav-fixed{
-    width:auto;
-  }
-}
-
-@media (max-width: 979px) {
-  .sidebar-nav-fixed {
-    position: static;
-    width: auto;
-  }
 }
