@@ -1,6 +1,7 @@
 User-Agent: *
 Disallow: /faq.html
 Disallow: /terms.html
+Disallow: /privacy.html
 
 User-agent: Googlebot-Image
 Disallow: /*.png$
