@@ -35,14 +35,7 @@
 
 	<!-- Color CSS -->
 	<!--<link href="assets/css/colors/blue.css" rel="stylesheet" type="text/css">-->
-	
-
 </head>
-		<script>
-function myFunction() {
-    document.getElementById("bubble").style.zIndex = "-2";
-}
-</script>
 <body>
 
 	<!-- PRELOADER -->
@@ -52,9 +45,13 @@ function myFunction() {
 	<!-- /PRELOADER -->
 
 	<div class="wrapper">
-  	<!-- HERO -->
+	<canvas id="c"></canvas>	
+<button id="reset">new colours</button>
+
+		<!-- HERO -->
 		<section class="module-hero overlay-dark">
-<div id="ocean"></div>
+
+
 			<!-- HERO TEXT -->
 			<div class="hero-caption">
 				<div class="hero-text">
@@ -76,8 +73,7 @@ function myFunction() {
 
 		</section>
 		<!-- /HERO -->
-<canvas id="bubble" class="bubble-wrap"></canvas>
-			
+
 		<!-- SERVICES -->
 		<section id="services" class="module">
 
@@ -297,6 +293,7 @@ function myFunction() {
 	<script src="assets/js/smoothscroll.js"></script>
 	<script src="assets/js/custom.js"></script>
 
+	<script src="assets/js/lava.js"></script>
 	<script src="assets/js/fss.js"></script>
 	<script src="assets/js/fss-settings.js"></script>
 

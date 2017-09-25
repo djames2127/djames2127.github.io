@@ -15,7 +15,7 @@ html, body{
   height:100vh;
 }
 body{
-	background:#fff;
+	background:#000;
 	font-family:'Raleway', sans-serif;
 	letter-spacing:0.65px;
 	line-height:1.8;
@@ -813,6 +813,7 @@ Waves
   position:absolute;
   width:100%;
   min-height:100%;
+	
   background-image: -webkit-gradient(
   linear,
   left bottom,
@@ -823,26 +824,109 @@ Waves
 }
 
 .wave{
-  background:#220826;
+	background: #220826;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#220826), to(#5a1666));
+  background-image: -webkit-linear-gradient(top, #220826, #5a1666);
+  background-image: -moz-linear-gradient(top, #220826, #5a1666);
+  background-image: -ms-linear-gradient(top, #220826, #5a1666);
+  background-image: -o-linear-gradient(top, #220826, #5a1666);
+  background-image: linear-gradient(top, #220826, #5a1666);
+  filter: progid:DXImageTransform.Microsoft.gradient(start-colourStr='#220826', end-colourStr='#5a1666');
+
   display:inline-block;
-  height:60%;
-  width:10px;
+  height:100%;
+  width:100px;
   position:absolute;
-  -webkit-animation-name:             dostuff; 
+  -webkit-animation-name:             float; 
   -webkit-animation-duration:         3s; 
-  -webkit-animation-iteration-count:  infinite;
+  -webkit-animation-iteration-count:  infinite ;
   -webkit-transition-timing-function: ease-in-out;
+	filter: blur(4px);
+
 }
 
 
-@-webkit-keyframes dostuff{
+@-webkit-keyframes float{
   0%{
-    height:60%;
+    height:80%;
   }
+	
   50%{ 
-    height:40%;
-  }
-  100%{ 
     height:60%;
   }
+		
+  100%{ 
+    height:80%;
+  }
+}
+
+
+
+.bubble-wrap {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.text,
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+#reset {
+  position: absolute;
+  left:50%;
+  top:10px;
+  margin-left:-400px;
+  background: #444;
+  border: 1px solid #555;
+  color: #888;
+  padding: 6px 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#c {
+  width:90%;
+  height:100%;
+  margin:0 auto;
+  display:block;
+}
+
+#info {
+  position:absolute;
+  width:auto;
+  height:auto;
+
+}
+
+#top {
+  background:#fff;
+  width:100%;
+  height:auto;
+  position:relative;
+  border-bottom:1px solid #eee;
 }
