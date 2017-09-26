@@ -711,7 +711,7 @@ min-width: 300px;
 @media(max-width: 767px){
 	.store-logo{
 	position: relative;
-	width: 120px;
+	width: 150px;
 	padding: 5px;
 }}
 
