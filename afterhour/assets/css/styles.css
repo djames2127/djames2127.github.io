@@ -279,6 +279,17 @@ p, ul, ol, .form-group{
 	color:#fff;
 }
 
+
+
+.btn-invert, .btn-base:focus{
+	background:#fff;
+	color:rgb(90, 22, 102);
+}
+.btn-invert:hover{
+	border:none;
+	background:rgb(90, 22, 102);
+	color:#fff;
+}
 /*! Button sizes */
 
 .btn.btn-lg{
@@ -673,14 +684,14 @@ Branding
 
 @media(min-width: 640px){
 .branding-top{
-	margin-top: 50px;
+	margin-top: 20px;
 	min-width: 350px;
 	
 }}
 
 @media(max-width: 639px){
 .branding-top{
-max-width: 280px;
+min-width: 300px;
 }}
 
 
@@ -689,7 +700,10 @@ max-width: 280px;
 }
 
 
-
+.store-logo{
+	width: 200px;
+	padding: 10px;
+}
 
 
 
