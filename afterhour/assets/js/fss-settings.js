@@ -33,7 +33,7 @@
     minLimit: 10,
     maxLimit: null,
     minDistance: 40,
-    maxDistance: 400,
+    maxDistance: 500,
     autopilot: true,
     draw: false,
     bounds: FSS.Vector3.create(),
