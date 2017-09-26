@@ -701,13 +701,15 @@ min-width: 300px;
 
 @media (min-width: 768px){
 .store-logo{
+	position: relative;
 	width: 200px;
 	padding: 5px;
 	}}
 
 
 @media(max-width: 767px){
-.store-logo{
+	.store-logo{
+	position: relative;
 	width: 100px;
 	padding: 5px;
 }}
