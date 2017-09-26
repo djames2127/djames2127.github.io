@@ -92,6 +92,14 @@ h1{
 	font-size:48px;
 }
 
+@media (max-width: 639px){
+h1{
+	font-weight:250;
+	font-size:48px;
+}	
+	
+}
+
 h2{
 	font-weight:300;
 	font-size:32px;
@@ -788,6 +796,4 @@ max-width: 280px;
 
 .branding-bottom{
 	margin-top: 100px;
-	max-width: 200px;
-	
 }
