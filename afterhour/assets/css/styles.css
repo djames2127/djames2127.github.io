@@ -8,6 +8,8 @@ Created:	 Daniel James, Nubrink Design
 
 ------------------------------------------------------------------*/
 
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+
 /* GooeyOcean Background */
 
 html, body{
@@ -18,11 +20,11 @@ background-color:hsla(292, 65%, 9%, 1);
 
 
 body{
-	font-family:'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	letter-spacing:0.65px;
 	line-height:1.8;
 	font-weight:400;
-	font-size:13px;
+	font-size:12px;
 	color:#222;
 	-ms-overflow-style:scrollbar;
 	overflow-x:hidden;
@@ -87,7 +89,7 @@ a:hover, a:focus{
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family:'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	line-height:1.4;
 	font-weight:700;
 	margin:0 0 20px;
@@ -95,16 +97,14 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	font-weight:300;
-	font-size:48px;
+	font-size:46px;
 }
 
 @media (max-width: 639px){
 h1{
 	font-weight:300;
-	font-size:45px;
-}	
-	
-}
+	font-size:43px;
+}}
 
 h2{
 	font-weight:300;
@@ -249,7 +249,7 @@ p, ul, ol, .form-group{
 */
 
 .btn{
-	font-family:'Raleway', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	text-transform:uppercase;
 	letter-spacing:1.3px;
 	font-weight:700;
@@ -347,39 +347,6 @@ p, ul, ol, .form-group{
 	-o-transform:translateY(-10px);
 	transform:translateY(-10px);
 }
-/*!------------------------------------------------------------------
-[Team]
-*/
-
-.team-item{
-	text-align:center;
-	-webkit-transition:all 0.5s;
-	-moz-transition:all 0.5s;
-	-o-transition:all 0.5s;
-	transition:all 0.5s;
-}
-
-.team-item > img{
-	-webkit-border-radius:50%;
-	-moz-border-radius:50%;
-	-o-border-radius:50%;
-	border-radius:50%;
-}
-
-.team-inner{
-	padding:30px 0;
-}
-
-.team-name{
-	text-transform:uppercase;
-	letter-spacing:1.3px;
-	font-size:13px;
-	margin:0 0 22px;
-}
-
-.team-item p:last-child{
-	margin:0;
-}
 
 /*!------------------------------------------------------------------
 [Module Hero]
@@ -402,7 +369,7 @@ p, ul, ol, .form-group{
 	position:relative;
 	display:table;
 	height:100%;
-	width:90%;
+	width:100%;
 	text-align:center;
 	margin:0 auto;
 	z-index:2;
@@ -415,14 +382,7 @@ p, ul, ol, .form-group{
 	height:100%;
 }
 
-@media (max-width: 1024px){
 
-	.module-hero{
-		padding:100px 0;
-		height:100vh;
-	}
-
-}
 /*!------------------------------------------------------------------
 [Modules]
 */
@@ -685,14 +645,15 @@ Branding
 
 @media(min-width: 640px){
 .branding-top{
-	margin-top: 20px;
 	min-width: 350px;
+	margin-top: -100px;
 	
 }}
 
 @media(max-width: 639px){
 .branding-top{
 min-width: 300px;
+	margin-top: -70px;
 }}
 
 
