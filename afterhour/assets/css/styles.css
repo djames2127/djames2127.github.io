@@ -136,7 +136,7 @@ h1{
 @media (max-width: 639px){
 h1{
 	font-weight:300;
-	font-size:40px;
+	font-size:38px;
 }}
 
 h2{
@@ -418,7 +418,7 @@ p, ul, ol, .form-group{
 
 @media(max-width: 1024px){
 .module-hero{
-	height: 92vh;
+	height: 94vh;
 }}
 
 
