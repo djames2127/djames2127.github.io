@@ -701,11 +701,10 @@ min-width: 300px;
 
 
 .store-logo{
-	width: 200px;
+	max-width: 200px;
+	min-width: 150px;
 	padding: 10px;
 }
-
-
 
 
 
