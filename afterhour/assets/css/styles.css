@@ -10,6 +10,39 @@ Created:	 Daniel James, Nubrink Design
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
 
+/* Afterhour Company Colours*/
+
+.light-purple{
+	color: #7c1f8c;
+	
+}
+.mid-purple{
+	color: #5a1666;
+}
+.dark-purple{
+	color: #44114d;
+}
+
+.black-purple{
+	color: #220826;
+}
+.orange{
+	color: #f6921e;
+}
+
+
+.light-grey{
+	color: #708090;
+}
+
+
+.mid-grey{
+	color: #4e5a65;
+}
+
+
+
+
 /* GooeyOcean Background */
 
 html, body{
@@ -25,7 +58,7 @@ body{
 	line-height:1.8;
 	font-weight:400;
 	font-size:12px;
-	color:#222;
+	color:#4e5a65;
 	-ms-overflow-style:scrollbar;
 	overflow-x:hidden;
 }
@@ -97,18 +130,18 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	font-weight:300;
-	font-size:46px;
+	font-size:42px;
 }
 
 @media (max-width: 639px){
 h1{
 	font-weight:300;
-	font-size:43px;
+	font-size:40px;
 }}
 
 h2{
 	font-weight:300;
-	font-size:32px;
+	font-size:36px;
 }
 
 h3{
@@ -385,7 +418,7 @@ p, ul, ol, .form-group{
 
 @media(max-width: 1024px){
 .module-hero{
-	height: 90vh;
+	height: 92vh;
 }}
 
 
