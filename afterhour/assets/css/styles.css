@@ -705,7 +705,7 @@ min-width: 300px;
 }
 
 
-@media(max-width: 639px){
+@media(max-width: 1024px){
 .store-logo{
 	width: 120px;
 	padding: 0px;
