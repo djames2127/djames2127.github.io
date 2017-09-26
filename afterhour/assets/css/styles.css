@@ -1,17 +1,23 @@
 /*! -----------------------------------------------------------------
 [Master Stylesheet]
 
-Project:     Skyflex
+Project:     Afterhour
 Version:     1.0
-Last change: 06/12/2015
-Primary use: Coming Soon
+Year:		 2017
+Created:	 Daniel James, Nubrink Design
 
-------------------------------------------------------------------
-[General Styles]
-*/
+------------------------------------------------------------------*/
+
+/* GooeyOcean Background */
+
+html, body{
+background-color:hsla(292, 65%, 9%, 1);
+}
+
+/* [General Styles] */
+
 
 body{
-	background:#fff;
 	font-family:'Raleway', sans-serif;
 	letter-spacing:0.65px;
 	line-height:1.8;
@@ -67,7 +73,7 @@ iframe{
 */
 
 a{
-	color:#a0ce4e;
+	color:rgb(246, 146, 40);
 	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
@@ -77,7 +83,7 @@ a{
 a:hover, a:focus{
 	text-decoration:none;
 	outline:none;
-	color:rgb(135, 184, 50);
+	color:rgb(226,128,30);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -191,7 +197,7 @@ p, ul, ol, .form-group{
 	padding:2px;
 	border-width:3px;
 	border-style:solid;
-	border-color:#a0ce4e transparent transparent transparent;
+	border-color:rgb(246, 146, 40) transparent transparent transparent;
 	-webkit-border-radius:50%;
 	-moz-border-radius:50%;
 	-o-border-radius:50%;
@@ -237,105 +243,7 @@ p, ul, ol, .form-group{
 	}
 
 }
-/*!------------------------------------------------------------------
-[Forms]
-*/
 
-.form-control{
-	background:#fff;
-	border:2px solid #dadada;
-	height:44px;
-	padding:13px 16px;
-	font-family:'Raleway', sans-serif;
-	text-transform:uppercase;
-	letter-spacing:1.3px;
-	font-weight:700;
-	font-size:13px;
-	color:#222;
-	-webkit-appearance:none;
-	-webkit-box-shadow:none;
-	-moz-box-shadow:none;
-	-o-box-shadow:none;
-	box-shadow:none;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	-o-border-radius:4px;
-	border-radius:4px;
-	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-}
-
-.form-control:focus{
-	border-color:#a0ce4e;
-	-webkit-box-shadow:none;
-	-moz-box-shadow:none;
-	-o-box-shadow:none;
-	box-shadow:none;
-}
-
-.form-control.no-boder{
-	border-color:#fff;
-}
-
-.ajax-response{
-	text-align:center;
-}
-
-.ajax-response p{
-	margin:20px 0;
-}
-
-/*! Form placeholders */
-
-.form-control::-webkit-input-placeholder{
-	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	color:rgba( 34, 34, 34, 0.25 ) !important;
-}
-
-.form-control:focus::-webkit-input-placeholder{
-	color:#222 !important;
-}
-
-.form-control::-moz-placeholder{
-	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	color:rgba( 34, 34, 34, 0.25 ) !important;
-}
-
-.form-control:focus::-moz-placeholder{
-	color:#222 !important;
-}
-
-.form-control:-moz-placeholder{
-	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	color:rgba( 34, 34, 34, 0.25 ) !important;
-}
-
-.form-control:focus:-moz-placeholder{
-	color:#222 !important;
-}
-
-.form-control:-ms-input-placeholder{
-	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
-	color:rgba( 34, 34, 34, 0.25 ) !important;
-}
-
-.form-control:focus:-ms-input-placeholder{
-	color:#222 !important;
-}
 /*!------------------------------------------------------------------
 [Buttons]
 */
@@ -363,11 +271,11 @@ p, ul, ol, .form-group{
 
 
 .btn-base, .btn-base:focus{
-	background:#a0ce4e;
+	background:rgb(90, 22, 102);
 	color:#fff;
 }
 .btn-base:hover{
-	background:rgb(135, 184, 50);
+	background:rgb(68,17,77);
 	color:#fff;
 }
 
@@ -404,7 +312,7 @@ p, ul, ol, .form-group{
 
 .iconbox-icon{
 	font-size:32px;
-	color:#a0ce4e;
+	color:rgb(246, 146, 40);
 	-webkit-transition:all 0.3s;
 	-moz-transition:all 0.3s;
 	-o-transition:all 0.3s;
@@ -422,7 +330,7 @@ p, ul, ol, .form-group{
 }
 
 .iconbox:hover .iconbox-icon{
-	color:rgb(135, 184, 50);
+	color:rgb(226,128,30);
 	-webkit-transform:translateY(-10px);
 	-moz-transform:translateY(-10px);
 	-o-transform:translateY(-10px);
@@ -483,7 +391,7 @@ p, ul, ol, .form-group{
 	position:relative;
 	display:table;
 	height:100%;
-	width:80%;
+	width:90%;
 	text-align:center;
 	margin:0 auto;
 	z-index:2;
@@ -571,7 +479,6 @@ p, ul, ol, .form-group{
 }
 
 .overlay-light:before{
-	background-image:url(../images/overlay.png);
 	opacity:0.75;
 	content:"";
 	left:0;
@@ -579,7 +486,6 @@ p, ul, ol, .form-group{
 }
 
 .overlay-dark:before{
-	background-image:url(../images/overlay-dark.png);
 	opacity:0.5;
 	content:"";
 	left:0;
@@ -587,7 +493,7 @@ p, ul, ol, .form-group{
 }
 
 .overlay-dark{
-	color:#fff;
+	color:#eee;
 
 }
 
@@ -595,28 +501,13 @@ p, ul, ol, .form-group{
 	color:#fff;
 }
 
-#fss > canvas{
+#gooeyocean > canvas{
 	position:absolute;
 	top:0;
 	left:0;
 }
-/*!------------------------------------------------------------------
-[Maps Module]
-*/
 
-.module-map{
-	position:relative;
-	overflow:hidden;
-	height:450px;
-	width:100%;
-	-webkit-transform:translateZ(0px);
-	        transform:translateZ(0px);
-}
 
-#map{
-	height:100% !important;
-	width:100%;
-}
 /*!------------------------------------------------------------------
 [Dividers]
 */
@@ -639,7 +530,7 @@ p, ul, ol, .form-group{
 	position:relative;
 	background:rgba( 126, 126, 126, 0.1);
 	text-align:center;
-	color:#a0ce4e;
+	color:rgb(246, 146, 40);
 	font-size:24px;
 	z-index:2;
 	width:70px;
@@ -710,7 +601,7 @@ p, ul, ol, .form-group{
 }
 
 .social-icons a:hover{
-	color:#a0ce4e;
+	color:rgb(246, 146, 40);
 }
 /*!------------------------------------------------------------------
 [Multi-columns-row]
@@ -797,3 +688,26 @@ max-width: 280px;
 .branding-bottom{
 	margin-top: 100px;
 }
+
+
+
+
+
+
+
+
+/*
+gooeyocean
+*/
+
+#canvas{
+    margin:0 auto;
+    display:block;
+    filter:url('#shadowed-goo');
+}
+
+svg{
+  display:none;
+}
+
+

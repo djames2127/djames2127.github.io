@@ -72,14 +72,16 @@
 
 	<div class="wrapper">
 
+	
+		
 		<!-- HERO -->
-		<section id="fss" class="module-hero overlay-dark">
-
+		<section id="gooeyocean" class="module-hero overlay-dark">
+			
 			<!-- HERO TEXT -->
 			<div class="hero-caption">
 				<div class="hero-text">
 
-					<!-- YOUR LOGO -->
+					<!-- BRANDING -->
 					<img class="branding-top" src="assets/images/logo-light.svg" alt="">
 
 					<!-- HERO CONTENT -->
@@ -89,19 +91,42 @@
 
 					<!-- COUNTDOWN: YOUR DATE HERE -->
 					<div id="countdown" class="m-b-40 hidden-xs hidden-sm" data-countdown="2017/12/27"></div>
-
+				
 				</div>
 			</div>
 			<!-- /HERO TEXT -->
-
+				<!-- GOOEYOCEAN -->
+		<canvas id="canvas">Sorry, Looks like your browser doesn't support canvas</canvas>
+		<!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="shadowed-goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+          <feBlend in2="shadow" in="goo" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+    </defs>
+</svg>
+<!-- /GOOEYOCEAN -->
 		</section>
 		<!-- /HERO -->
 
+				
+		
 		<!-- SERVICES -->
 		<section id="services" class="module">
 
 			<!-- MODULE DIVIDER -->
-			<a id="hero-divider" class="striped-icon divider inner-scroll" href="#services">
+			<a id="hero-divider" class="striped-icon divider js-scroll-trigger" href="#services">
 				<i class="fa fa-angle-down"></i>
 			</a>
 			<!-- /MODULE DIVIDER -->
@@ -125,7 +150,7 @@
 								<span class="icon_desktop"></span>
 							</div>
 							<div class="iconbox-header">
-								<h4 class="iconbox-title">Perfect design</h4>
+								<h4 class="iconbox-title">Order Tracking</h4>
 							</div>
 							<div class="iconbox-content">
 								<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
@@ -141,7 +166,7 @@
 								<span class="icon_like"></span>
 							</div>
 							<div class="iconbox-header">
-								<h4 class="iconbox-title">Clear code</h4>
+								<h4 class="iconbox-title">Easy Shopping</h4>
 							</div>
 							<div class="iconbox-content">
 								<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
@@ -157,7 +182,7 @@
 								<span class="icon_clock_alt"></span>
 							</div>
 							<div class="iconbox-header">
-								<h4 class="iconbox-title">Fast support</h4>
+								<h4 class="iconbox-title">Quick Delivery</h4>
 							</div>
 							<div class="iconbox-content">
 								<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
@@ -173,7 +198,7 @@
 								<span class="icon_search"></span>
 							</div>
 							<div class="iconbox-header">
-								<h4 class="iconbox-title">Smart search</h4>
+								<h4 class="iconbox-title">Get Rewarded</h4>
 							</div>
 							<div class="iconbox-content">
 								<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
@@ -189,7 +214,7 @@
 								<span class="icon_lightbulb_alt"></span>
 							</div>
 							<div class="iconbox-header">
-								<h4 class="iconbox-title">Many ideas</h4>
+								<h4 class="iconbox-title">Flexible Payments</h4>
 							</div>
 							<div class="iconbox-content">
 								<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
@@ -205,7 +230,7 @@
 								<span class="icon_ribbon_alt"></span>
 							</div>
 							<div class="iconbox-header">
-								<h4 class="iconbox-title">Quick result</h4>
+								<h4 class="iconbox-title">Customer Support</h4>
 							</div>
 							<div class="iconbox-content">
 								<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
@@ -220,37 +245,6 @@
 		</section>
 		<!-- /SERVICES -->
 
-		<!-- SUBSCRIBE -->
-		<section class="module overlay-dark" data-background="assets/images/module-2.jpg">
-			<div class="container">
-
-				<div class="row">
-
-					<!-- MODULE TITLE -->
-					<div class="col-sm-12 col-md-6 wow fadeInLeft">
-						<h2 class="module-title text-left text-md-center m-b-0 m-b-md-30">Support <b>Us.</b></h2>
-					</div>
-					<!-- /MODULE TITLE -->
-
-					<div class="col-sm-12 col-md-6 text-sm-center wow fadeInRight">
-						<form id="subscription-form" class="form-horizontal">
-							<div class="form-group">
-								<div class="col-sm-8 m-b-sm-30">
-									<label class="sr-only" for="sub-email">E-mail</label>
-									<input type="email" id="sub-email" name="sub-email" class="form-control no-boder" placeholder="E-mail">
-								</div>
-
-								<div class="col-sm-4">
-									<button type="submit" class="btn btn-base">Support</button>
-								</div>
-							</div>
-						</form>
-						<div id="subscription-message" class="ajax-response"></div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- /SUBSCRIBE -->
 
 	<!-- FEATURE -->
 	<!-- /FEATURE -->	
@@ -271,10 +265,13 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="social-icons social-icons-animated m-b-40">
-							<a href="#" target="_blank" class="fa fa-facebook facebook wow fadeInUp"></a>
-							<a href="#" target="_blank" class="fa fa-twitter twitter wow fadeInUp"></a>
-							<a href="#" target="_blank" class="fa fa-google-plus google-plus wow fadeInUp"></a>
-							<a href="#" target="_blank" class="fa fa-instagram instagram wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-facebook wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-twitter wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-instagram wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-soundcloud wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-youtube-play wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-android wow fadeInUp"></a>
+							<a href="#" target="_blank" class="fa fa-apple wow fadeInUp"></a>
 						</div>
 					</div>
 				</div>
@@ -302,20 +299,18 @@
 	<!-- JAVASCRIPT FILES -->
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-
-	<script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+	<script src="assets/js/jquery.easing.min.js"></script>
+	<script src="assets/js/scrolling-nav.js"></script>
+	
 	<script src="assets/js/jquery.backstretch.min.js"></script>
 
 	<script src="assets/js/wow.min.js"></script>
-
 	<script src="assets/js/typed.min.js"></script>
 	<script src="assets/js/jquery.countdown.min.js"></script>
-
-	<script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/gooeyocean.js"></script>
+	
 	<script src="assets/js/custom.js"></script>
 
-	<script src="assets/js/fss.js"></script>
-	<script src="assets/js/fss-settings.js"></script>
 
 </body>
 </html>
