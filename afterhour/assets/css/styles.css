@@ -419,6 +419,7 @@ p, ul, ol, .form-group{
 
 	.module-hero{
 		padding:100px 0;
+		height:100vh;
 	}
 
 }
@@ -710,7 +711,7 @@ min-width: 300px;
 @media(max-width: 767px){
 	.store-logo{
 	position: relative;
-	width: 100px;
+	width: 120px;
 	padding: 5px;
 }}
 
@@ -729,5 +730,4 @@ gooeyocean
 svg{
   display:none;
 }
-
 
