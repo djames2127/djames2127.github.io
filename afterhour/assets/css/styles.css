@@ -701,15 +701,12 @@ min-width: 300px;
 
 
 .store-logo{
-	max-width: 200px;
+	min-width: 15%;
+	max-width: 20%;
 	padding: 10px;
 }
 
-@media(max-width: 639px){
-.store-logo{
-	max-width: 130px;
-	padding: 5px;
-	}}
+
 /*
 gooeyocean
 */
