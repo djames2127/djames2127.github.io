@@ -1,11 +1,10 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
 	<meta charset="UTF-8">
-
 	<title id="title">Afterhour™ - Singapore's First Alcohol Delivery Mobile App</title>
-
+	<!-- Meta Tags -->
 	<meta name="description" content="#"/>
 	<meta name="keywords" content="alcohol, delivery, cheap, singapore, best, fast, 247, 24 hour, midnight,">
 	<meta name="author" content="Afterhour">
@@ -31,7 +30,6 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#5a1666">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	
-	
 	<!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -56,6 +54,7 @@
 	<link href="assets/css/animate.css" rel="stylesheet">
 
 	<!-- Morph ....  -->
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css"/>
 	<link rel="stylesheet" type="text/css" href="assets/css/morph.css" />
 		<script>
 			document.documentElement.className = 'js';
@@ -99,15 +98,14 @@
 </svg>
 	<!-- /PRELOADER -->
 
-	<div class="wrapper">
-		<!-- HERO -->
+<wrapper class="wrapper">
+<!-- HEADER -->
 		<header id="gooeyocean" class="module-hero overlay-dark">
 			<!-- HERO TEXT -->
 			<div class="hero-caption">
 				<div class="hero-text">
 					<!-- BRANDING -->
 					<img class="branding-top" src="assets/img/logo-light.svg" alt="">
-
 					<!-- HERO CONTENT -->
 					<p class="m-b-40">Singapore's <strong><em>First</em></strong> Alcohol Delivery <strong>Mobile App.</strong></p>
 					<h1 class="text-uppercase m-b-40">coming <b>soon.</b></h1>
@@ -115,11 +113,10 @@
 					<img class="store-logo" src="assets/img/playstore.svg" alt="">
 					<img class="store-logo" src="assets/img/appstore.svg" alt="">
 					</div>
-			</div>
-			<!-- /HERO TEXT -->
-				<!-- GOOEYOCEAN -->
-		<canvas id="gooey">Sorry, Looks like your browser doesn't support canvas</canvas>
-		<!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
+			</div><!-- /HERO TEXT -->
+<!-- GOOEYOCEAN -->
+<canvas id="gooey">Sorry, Looks like your browser doesn't support canvas</canvas>
+<!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
     <defs>
       <filter id="shadowed-goo">
@@ -139,27 +136,16 @@
     </defs>
 </svg>
 <!-- /GOOEYOCEAN -->
-		</header>
-		<!-- /HERO -->
+</header>
+<!-- /HEADER -->
 		
 		
-		<!-- BUBBLES -->				
-<canvas id="bubbles1"></canvas>
-<canvas id="bubbles2"></canvas>
-
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-	<defs>
-		<filter id="goo">
-			<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-			<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-			<feBlend in="SourceGraphic" in2="goo" />
-		</filter>
-	</defs>
-</svg>
-<!-- ./BUBBLES -->	
-		
-		
-			<section class="discover">
+			<main class="discover">
+							<!-- MODULE DIVIDER -->
+			<a id="hero-divider" class="striped-icon divider js-scroll-trigger" href="#services">
+				<i class="fa fa-angle-down"></i>
+			</a>
+			<!-- /MODULE DIVIDER -->
 			<div class="morph-wrap">
 				<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
 					<path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z"/>
@@ -169,7 +155,6 @@
 				<div class="content content--layout content--layout-1">
 					<img class="content__img" src="assets/img/1.jpg" alt="Some image" />
 					<h3 class="content__title">browse</h3>
-					<p class="content__author">Jane Westhall</p>
 					<p class="content__desc">Lost or found? That's the question today.</p>
 					<a href="#" class="content__link">Discover</a>
 				</div>
@@ -178,7 +163,6 @@
 				<div class="content content--layout content--layout-2">
 					<img class="content__img" src="assets/img/2.jpg" alt="Some image" />
 					<h3 class="content__title">order</h3>
-					<p class="content__author">Nikimo Westlane</p>
 					<p class="content__desc">The neverending quest, once and forever.</p>
 					<a href="#" class="content__link">Discover</a>
 				</div>
@@ -187,7 +171,6 @@
 				<div class="content content--layout content--layout-3">
 					<img class="content__img" src="assets/img/3.jpg" alt="Some image" />
 					<h3 class="content__title">pay</h3>
-					<p class="content__author">Gregory Mourisha</p>
 					<p class="content__desc">Finding the heart when paradise is lost.</p>
 					<a href="#" class="content__link">Discover</a>
 				</div>
@@ -196,7 +179,6 @@
 				<div class="content content--layout content--layout-4">
 					<img class="content__img" src="assets/img/4.jpg" alt="Some image" />
 					<h3 class="content__title">collect</h3>
-					<p class="content__author">Walter Mastricht</p>
 					<p class="content__desc">The outer bounds of the world, from within.</p>
 					<a href="#" class="content__link">Discover</a>
 				</div>
@@ -205,7 +187,6 @@
 				<div class="content content--layout content--layout-1">
 					<img class="content__img" src="assets/img/5.jpg" alt="Some image" />
 					<h3 class="content__title">enjoy</h3>
-					<p class="content__author">Frank Cherry</p>
 					<p class="content__desc">Frank's work and nothing more.</p>
 					<a href="#" class="content__link">Discover</a>
 				</div>
@@ -215,39 +196,28 @@
 				<div class="content content--layout content--layout-4">
 					<img class="content__img" src="assets/img/1.jpg" alt="Some image" />
 					<h3 class="content__title">then...</h3>
-					<p class="content__author">Walter Mastricht</p>
 					<p class="content__desc">The outer bounds of the world, from within.</p>
-					<a href="#" class="content__link">Discover</a>
 				</div>
 			</div>
-		</section>	
+		</main>	
 						
 
 		
-		<!-- SERVICES -->
-		<section id="services" class="module">
-			<!-- MODULE DIVIDER -->
-			<a id="hero-divider" class="striped-icon divider js-scroll-trigger" href="#services">
-				<i class="fa fa-angle-down"></i>
-			</a>
-			<!-- /MODULE DIVIDER -->
+<!-- SERVICES -->
+<section id="services" class="module">
 			<div class="container">
 				<!-- MODULE TITLE -->
-				<div class="row">
+				<div class="row text-center">
 					<div class="col-sm-8 col-sm-offset-2">
-						<h4 class="module-subtitle">After & Before the <strong>happy hour</strong>, there's <strong class="light-purple">Us.</strong><br>Singapore's <strong><em>First</em></strong> Alcohol Delivery App.</h3>
-						<h4 class="iconbox-title">Island-wide Delivery</h4>
-									<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
+						<h4 class="module-subtitle">When you're <strong><em>thirsty</strong></em>, there's <strong class="light-purple">Us.</strong></h4>
+						<h4 class="iconbox-title">Singapore's First Alcohol Delivery App.</h4>
+						<p>Doing business like this takes much more effort than doing your own business at home, and on top of that there's the curse of travelling.</p>
 					</div>
 				</div>
 				<!-- /MODULE TITLE -->
 			</div>
-		</section>
-		<!-- /SERVICES -->
-
-
-	<!-- FEATURE -->
-	<!-- /FEATURE -->	
+</section>
+<!-- /SERVICES -->
 
 		<!-- FOOTER -->
 		<footer class="footer p-t-0">
@@ -283,33 +253,24 @@
 					</div>
 				</div>
 			</div>
-		</footer>
-		<!-- /FOOTER -->
+</footer><!-- /FOOTER -->
+</div><!-- /WRAPPER -->
 
-	</div>
-	<!-- /WRAPPER -->
-
-	<!-- JAVASCRIPT -->
-	<!-- Morph -->
-	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
-	<script src="assets/js/anime.min.js"></script>
-	<script src="assets/js/scrollMonitor.js"></script>
-	<script src="assets/js/morph.js"></script>
-	<script src="assets/js/bubbles.js"></script>
+<!-- JAVASCRIPT -->
 	<!-- Foundation -->
 	<script src="assets/js/jquery-2.1.4.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.easing.min.js"></script>
+	<!-- Plugins -->
 	<script src="assets/js/scrolling-nav.js"></script>
+	<script src="assets/js/anime.min.js"></script>		
+	<script src="assets/js/scrollMonitor.js"></script>	
 	<script src="assets/js/jquery.backstretch.min.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/typed.min.js"></script>
-	<script src="assets/js/jquery.countdown.min.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<!-- Theme -->
 	<script src="assets/js/gooeyocean.js"></script>
+	<script src="assets/js/morph.js"></script>
 	<script src="assets/js/custom.js"></script>
-	
-	
-
 
 </body>
 </html>

@@ -183,27 +183,6 @@
 	grid-column: 1 / 3;
 }
 
-.content__related-item {
-	padding: 1em;
-	transition: color 0.3s;
-}
-
-.content__related-img {
-	max-width: 100%;
-	opacity: 0.8;
-	transition: opacity 0.3s;
-}
-
-.content__related-item:hover .content__related-img,
-.content__related-item:focus .content__related-img {
-	opacity: 1;
-}
-
-.content__related-title {
-	font-size: 1em;
-	margin: 0;
-	padding: 0.5em;
-}
 
 /* Different layouts */
 
