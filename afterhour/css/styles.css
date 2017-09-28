@@ -10,6 +10,15 @@ Created:	 Daniel James, Nubrink Design
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
 
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
 /* Afterhour Company Colours*/
 
 .light-purple{
@@ -89,6 +98,7 @@ iframe{
 .wrapper{
 	position:relative;
 }
+
 /*!------------------------------------------------------------------
 [Countdown]
 */
@@ -410,6 +420,7 @@ p, ul, ol, .form-group{
 	-o-background-size:cover;
 	background-size:cover;
 	height:100vh;
+	z-index: 1;
 }
 
 .hero-caption{
@@ -742,12 +753,9 @@ gooeyocean
     filter:url('#shadowed-goo');
 }
 
-svg{
+#gooey > svg{
   display:none;
 }
-
-
-
 
 /*
 liquid loader
@@ -828,3 +836,11 @@ liquid loader
   100% { transform: translateY(-$radius); background: #00fffb;}
 }
 
+
+
+
+
+
+/*
+Button
+*/
