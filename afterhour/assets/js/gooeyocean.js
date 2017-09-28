@@ -11,7 +11,7 @@ class Application {
      * Application constructor
      */
     constructor() {
-        this.canvas = document.getElementById("canvas");
+        this.canvas = document.getElementById("gooey");
         this.context = this.canvas.getContext("2d");
         this.width = this.canvas.width = window.innerWidth;
         this.height = this.canvas.height = window.innerHeight;

@@ -40,6 +40,9 @@ Created:	 Daniel James, Nubrink Design
 	color: #4e5a65;
 }
 
+.teal{
+	color:	#00a69c;
+}
 
 
 
@@ -61,6 +64,18 @@ body{
 	color:#4e5a65;
 	-ms-overflow-style:scrollbar;
 	overflow-x:hidden;
+		--background-color: #220826;
+	--background-color-2: #220826;
+	--background-color-3: #220826;
+	--link-color: #03b9f1;
+	--link-hover-color: #fff;
+	color: #fff;
+	color: var(--text-color);
+	background-color: #220826;
+	background-color: var(--background-color);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
 }
 
 img{
@@ -418,7 +433,7 @@ p, ul, ol, .form-group{
 
 @media(max-width: 1024px){
 .module-hero{
-	height: 93vh;
+	height: 92vh;
 }}
 
 
@@ -722,7 +737,7 @@ min-width: 300px;
 gooeyocean
 */
 
-#canvas{
+#gooey{
     margin:0 auto;
     display:block;
     filter:url('#shadowed-goo');
@@ -812,4 +827,18 @@ liquid loader
 @keyframes y-axis-lateral {
   0% { transform: translateY($radius/5); }
   100% { transform: translateY(-$radius); background: #00fffb;}
+}
+
+
+
+
+
+
+/*
+bubbles
+*/
+
+bubbles1 bubbles2{
+	-webkit-filter: url("#goo");
+    filter: url("#goo");
 }
