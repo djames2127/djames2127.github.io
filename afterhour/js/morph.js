@@ -66,7 +66,7 @@
 			requestAnimationFrame(() => {
 				anime({
 					targets: [this.DOM.img, this.DOM.title],
-					duration: 1500,
+					duration: 1000,
 					easing: 'easeOutElastic',
 					elasticity: 200,
 					translateX: 0,
@@ -302,7 +302,7 @@
 		DOM.contentElems.forEach((el,pos) => {
 			const scrollElemToWatch = pos ? DOM.contentElems[pos] : DOM.footer;
 			pos = pos ? pos : contentElemsTotal;
-			const watcher = scrollMonitor.create(scrollElemToWatch,-350);
+			const watcher = scrollMonitor.create(scrollElemToWatch, 200);
 			
 			watcher.enterViewport(function() {
 				step = pos;
