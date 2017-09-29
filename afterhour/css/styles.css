@@ -458,7 +458,10 @@ p, ul, ol, .form-group{
 	height: 92vh;
 }}
 
-
+.hero-aarow {
+	margin-top: 100px;
+	color: #fff;
+}
 
 /*!------------------------------------------------------------------
 [Modules]
@@ -854,5 +857,14 @@ liquid loader
 
 
 /*
-Button
+Bubbles
 */
+
+
+#bubbles1, #bubbles2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-filter: url("#goo");
+    filter: url("#goo");
+}

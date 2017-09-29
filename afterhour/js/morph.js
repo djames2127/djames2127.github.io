@@ -127,7 +127,7 @@
 			ty: -100,
 			fill: {
 				color: '#7c1f8c', // First Morph Colour
-				duration: 1200,
+				duration: 1000,
 				easing: 'linear'
 			},
 			animation: {
