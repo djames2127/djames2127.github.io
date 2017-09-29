@@ -127,7 +127,7 @@
 			ty: -100,
 			fill: {
 				color: '#7c1f8c', // First Morph Colour
-				duration: 1500,
+				duration: 1200,
 				easing: 'linear'
 			},
 			animation: {
@@ -174,7 +174,7 @@
 			tx: -100,
 			ty: 200,
 			fill: {
-				color: '#44114d', // Third Morph Colour
+				color: '#7c1f8c', // Third Morph Colour
 				duration: 500,
 				easing: 'linear'
 			},

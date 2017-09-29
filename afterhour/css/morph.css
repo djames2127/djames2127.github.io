@@ -136,6 +136,7 @@ a:focus {
 	min-height: 600px;
 	height: 100vh;
 	font-size: 0.85em;
+	color: #fff;
 }
 
 .content__img {
