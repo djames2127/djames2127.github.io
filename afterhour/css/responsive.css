@@ -29,8 +29,8 @@
     margin-bottom: 0;
   }
   .count_down {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
   }
   .count_down .time .counter {
     font-size: 35px;
@@ -267,14 +267,7 @@
   }
   /*
 	******************************************
-	*
-	*   Footer CSS
-	*   
-	*/
-  footer .btn-top {
-    padding: 8px 12px 2px 12px;
-  }
-}
+	
 /************************************************
 *
 *   Blog Page css START here

@@ -360,11 +360,15 @@ p, ul, ol, .form-group{
 .header-body {
   overflow: hidden;
 z-index:1;
+	}
 
-	
-
-
+.header-logo{
+	min-width: 300px;
+	margin-top: -60px;
 }
+
+
+
 .navbar-fixed-top.navbar-home {
   padding-top: 0px !important;
   background-color: #252321 !important;
@@ -505,8 +509,8 @@ z-index:1;
 }
 .count_down {
   margin: auto;
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-top: 20px;
   overflow: hidden;
   float: none;
 }
@@ -1444,7 +1448,7 @@ a.prev:hover {
 @media(max-width: 767px){
 	.stores{
 	position: relative;
-	width: 150px;
+	width: 100px;
 	padding: 5px;
 }}
 
