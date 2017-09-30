@@ -19,6 +19,83 @@ Created:	 Daniel James, Nubrink Design
 }
 
 
+/* Afterhour Company Colours*/
+
+.light-purple{
+	color: #7c1f8c;
+	
+}
+.mid-purple{
+	color: #5a1666;
+}
+.dark-purple{
+	color: #44114d;
+}
+
+.black-purple{
+	color: #220826;
+}
+.orange{
+	color: #f6921e;
+}
+
+
+.light-grey{
+	color: #708090;
+}
+
+
+.mid-grey{
+	color: #4e5a65;
+}
+
+.teal{
+	color:	#00a69c;
+}
+
+
+
+/* GooeyOcean Background */
+
+html, body{
+background-color:hsla(292, 65%, 9%, 1);
+		--background-color: #220826;
+	--background-color-2: #220826;
+	--background-color-3: #220826;
+	--link-color: #03b9f1;
+	--link-hover-color: #fff;
+	color: #fff;
+	color: var(--text-color);
+	background-color: #220826;
+	background-color: var(--background-color);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* [General Styles] */
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+	letter-spacing:0.65px;
+	line-height:1.8;
+	font-weight:400;
+	font-size:12px;
+	color:#4e5a65;
+	-ms-overflow-style:scrollbar;
+	overflow-x:hidden;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+iframe{
+	border:0;
+}
+
+
 
 ::-moz-selection { /* Text Highlight */
     color: #fff;
@@ -52,53 +129,70 @@ Created:	 Daniel James, Nubrink Design
  *  
  *  
  */
-body {
-  overflow-x: hidden !important;
-	font-family: 'Poppins', sans-serif;
-	font-size: 10px;
-}
-* {
- font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-}
-a {
-  font-family: 'Poppins', sans-serif;
-  text-decoration: none;
-}
+
 .fix {
   overflow: hidden;
 }
-p {
- font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 28px;
-  color: #60626D;
+a{
+	color:rgb(246, 146, 40);
+	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
+	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
+	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
+	transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 }
-h1,
-h2,
-h3,
-h4 {
- font-family: 'Poppins', sans-serif;
+
+a:hover, a:focus{
+	text-decoration:none;
+	outline:none;
+	color:rgb(226,128,30);
 }
-h1 {
-  font-size: 40px;
-  line-height: 60px;
-  font-weight: 300;
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+	
 }
-h1 b {
- font-family: 'Poppins', sans-serif;
+
+h1{
+	font-weight:300;
+	font-size:42px;
 }
-h2 {
-  font-size: 35px;
-  font-weight: 300;
-  line-height: 52px;
+
+@media (max-width: 1024px){
+h1{
+	font-weight:300;
+	font-size:38px;
+}}
+
+h2{
+	font-weight:300;
+	font-size:36px;
 }
-h3 {
- font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 42px;
+
+h3{
+	font-size:24px;
+}
+
+h4{
+	font-size:16px;
+}
+
+h5{
+	font-size:14px;
+}
+
+h6{
+	font-size:13px;
+}
+
+p, ul, ol, .form-group{
+	margin:0 0 30px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.lead{
+	line-height:1.8;
+	font-weight:400;
+	font-size:14px;
 }
 .btn-group,
 .our-featured-speaker-right p,
@@ -731,7 +825,7 @@ color: #4e5a65;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.register-body h3 {
+.register-body {
   color: #fff;
   text-align: center;
 }
@@ -1055,7 +1149,7 @@ color: #4e5a65;
   float: left;
 }
 .social-icon ul li a {
-  background: #252321;
+  background: transparent;
   margin-right: 10px;
   transition: all 0.8s;
   -moz-transition: all 0.8s;
@@ -1094,6 +1188,10 @@ color: #4e5a65;
 footer {
   background: #220826;
   overflow: hidden;
+}
+
+footer a{
+	color: #7c1f8c;
 }
 footer .logo {
   margin-top: 12px;
@@ -1335,13 +1433,20 @@ a.prev:hover {
 */
 
 
+@media (min-width: 768px){
 .stores{
-	min-width: 200px;
-	padding: 10px;
-}
+	position: relative;
+	width: 200px;
+	padding: 5px;
+	}}
 
 
-
+@media(max-width: 767px){
+	.stores{
+	position: relative;
+	width: 150px;
+	padding: 5px;
+}}
 
 
 

@@ -2,56 +2,56 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 	<head>
-	<meta charset="UTF-8">
-	<!-- Website Title-->
-	<title id="title">Afterhour™ - Singapore's First Alcohol Delivery Mobile App</title>
-	<!-- Meta Tags -->
-	<meta name="description" content="#"/>
-	<meta name="keywords" content="alcohol, delivery, cheap, singapore, best, fast, 247, 24 hour, midnight,">
-	<meta name="author" content="Afterhour">
-    <meta name="subject" content="Business">
-	<meta name="classification" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
-    <meta name="google-site-verification" content="#" />
-   	<meta property="og:site_name" content="Afterhour.sg | Singapore's First Alcohol Delivery Mobile App" />
-	<meta property="og:title" content="Afterhour.sg | Singapore's First Alcohol Delivery Mobile App">
-    <meta property="og:type" content="http://www.afterhour.com/">
-    <meta property="og:image" content="http://www.afterhour.sg/img/symbol.png">
-	<meta property="og:url" content="http://www.afterhour.sg/">
-	<meta property="og:description" content="#">
-	<meta property=”fb:admins” content=”#”/>
-	
-	<!-- Mobile Browser/Tab Theme -->
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#5a1666">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#5a1666">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="apple-mobile-web-app-status-bar-style" content="#5a1666">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	
-	<!-- FAVICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7c1f8c">
-	<meta name="theme-color" content="#ffffff">
+		<meta charset="UTF-8">
+		<!-- Website Title-->
+		<title id="title">Afterhour™ - Singapore's First Alcohol Delivery Mobile App</title>
+		<!-- Meta Tags -->
+		<meta name="description" content="#"/>
+		<meta name="keywords" content="alcohol, delivery, cheap, singapore, best, fast, 247, 24 hour, midnight,">
+		<meta name="author" content="Afterhour">
+		<meta name="subject" content="Business">
+		<meta name="classification" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
+		<meta name="google-site-verification" content="#" />
+		<meta property="og:site_name" content="Afterhour.sg | Singapore's First Alcohol Delivery Mobile App" />
+		<meta property="og:title" content="Afterhour.sg | Singapore's First Alcohol Delivery Mobile App">
+		<meta property="og:type" content="http://www.afterhour.com/">
+		<meta property="og:image" content="http://www.afterhour.sg/img/symbol.png">
+		<meta property="og:url" content="http://www.afterhour.sg/">
+		<meta property="og:description" content="#">
+		<meta property=”fb:admins” content=”#”/>
+
+		<!-- Mobile Browser/Tab Theme -->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#5a1666">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#5a1666">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#5a1666">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#7c1f8c">
+		<meta name="theme-color" content="#ffffff">
 
 
-    <!-- GOOGLE FONTS -->
+		<!-- Google Fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="styleshetype="text/css'>
 		
-        <!-- BOOTSTRAP CSS -->
+        <!-- Bootstrap: Foundation -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/vertical.min.css">
 
-        <!-- FONT ICONS -->
+        <!-- Icon Fonts -->
         <link rel="stylesheet" href="css/font-awesome.css">
         <link rel="stylesheet" href="css/elegant_icon.css">
 
-        <!-- PRELOADER -->
+        <!-- Preloader -->
         <link rel="stylesheet" href="css/preloader.css">
 
         <!-- CAROUSEL SLIDERS -->
@@ -69,41 +69,54 @@
         <link rel="stylesheet" href="css/hover-effect-animate.css" />
         <link rel="stylesheet" href="css/hover-effect.css" />
 
-        <!--   COUSTOM CSS link  -->
+
+        <!--  Custom: Theme  -->
         <link rel="stylesheet" href="css/style.css">
-		 <link rel="stylesheet" href="css/morph.css">
+		<link rel="stylesheet" href="css/morph.css">
         <link rel="stylesheet" href="css/responsive.css">
+ 		<link rel="stylesheet" href="css/theme.css" />
 
+		<script>
+			document.documentElement.className = 'js';
+			var supportsCssVars = function() {
+				var s = document.createElement('style'),
+				support;
 
-        <!-- COLOR SCHEME -->
-        <link rel="stylesheet" href="css/theme.css" type="text/css" />
-
-
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+				s.innerHTML = "root: { --tmp-var: bold; }";
+				document.head.appendChild(s);
+				support = !!(window.CSS && window.CSS.supports && window.CSS.supports('font-weight', 'var(--tmp-var)'));
+				s.parentNode.removeChild(s);
+				return support;
+			}
+			if (!supportsCssVars()) alert('Please view this demo in a modern browser that supports CSS Variables.')
+		</script>
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     
-    </head>
-    <body>
+	</head>
+<body>
 
-        <!-- PRELOADER -->
-        <div class="spinner-wrapper">
-            <div class="bubblingG">
-                <span id="bubblingG_1"></span>
-                <span id="bubblingG_2"></span>
-                <span id="bubblingG_3"></span>
-            </div>
-        </div>
-         <!-- /END PRELOADER -->
+<!-- PRELOADER -->
+<div class="spinner-wrapper">
+	<div class="bubblingG">
+		<span id="bubblingG_1"></span>
+		<span id="bubblingG_2"></span>
+		<span id="bubblingG_3"></span>
+	</div>
+</div>
+<!-- END: PRELOADER -->
          
+<!-- HEADER -->
+<header id="header" class="header-background header" data-stellar-background-ratio="0.5"> 
+<div class="fix header-overlay overlay-color">
 
-        <header id="header" class="header-background header" data-stellar-background-ratio="0.5"> <!--Start: "Header Area"-->
-			
-            <div class="fix header-overlay overlay-color">
-
-                <!-- Start: Navbar Area  -->
-                <div class="header-navbar navbar-fixed-top" id="header-navbar">
+<!-- NAVIGATION  -->
+<div class="header-navbar navbar-fixed-top" id="header-navbar">
 					
                     <nav class="navbar navbar-inverse">
                         <div class="container">
@@ -141,42 +154,29 @@
                         </div> <!-- End: container  -->
                     </nav> <!-- End: navbar navbar-inverse  -->
 					
-                </div>
-                <!-- End: Navbar Area  -->
-                
-	            <div class="container">
-					
-                    <div class="row header-body" id="header-body">
-
-                        <!-- Start: CountDown area -->
+</div>
+<!-- End: Navbar Area  -->
+<div class="container">
+<div class="row header-body" id="header-body">
+<!-- COUNTDOWN -->
                         <div class="count_down fadeInDown animated" data-wow-offset="120" data-wow-duration="1.5s">
                         </div>
                         <!-- End: CountDown area -->
-
                         <div class="clearfix">
                         </div>
-
                     	<div class="col-md-offset-1 col-md-5 heading fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
                     		<h2><b>Singapore's First </b><br>Alcohol Delivery App</h2>
                     	</div>
-
                     	<div class="col-md-5 pera fadeInUp animated" data-wow-offset="120" data-wow-duration="1.5s">
                     		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis atter liberty.</p>
-
                     		<!-- Start: Arrow Button Here -->
                             <!-- End: Arrow Button Here -->
-
                     	</div><!-- End: col-md-5 pera  -->
-
-
-                    </div><!-- End: header-body  -->
-					
-                </div> <!-- End: container  -->
-
-
-
-            </div> <!-- End: fix header-overlay overlay-color  -->
-			<!-- GOOEYOCEAN -->
+                    </div><!-- End: header-body  -->				
+</div> <!-- End: container  -->
+</div> <!-- End: fix header-overlay overlay-color  -->
+	
+<!-- GOOEYOCEAN -->
 <canvas id="gooey">Sorry, Looks like your browser doesn't support canvas</canvas>
 <!-- SVG Goo filter from: https://css-tricks.com/gooey-effect/ -->
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -197,9 +197,10 @@
       </filter>
     </defs>
 </svg>
-<!-- /GOOEYOCEAN -->
-        </header> <!--End: Header Area-->
-
+<!-- END: GOOEYOCEAN -->
+	
+</header>
+<!-- END: HEADER -->
         
         <section class=" about-our-event" id="section-1"><!-- Start: about-our-event, "SECTION-1" -->
         	<div class="container">
@@ -284,7 +285,7 @@
                                 <div class="row">
                                     <div class="col-md-offset-1 col-md-10">
 										
-										<h3>Make this happen. Help our<a data-toggle="tooltip" title="CLICK ME!" href="https://www.kickstarter.com/profile/afterhour" ><img src="images/kickstarter.svg"></a>campaign.</h3>
+										<h3>Make this happen. Help our<a href="https://www.kickstarter.com/profile/afterhour" ><img src="images/kickstarter.svg"></a>campaign.</h3>
                                     </div>
                                 </div>
                             </div>
@@ -294,8 +295,8 @@
             </div> <!-- End: .overlay-color -->
         </section> <!-- End: Register Area, "#SECTION-6" -->
 
-	<!-- Liquid Canvas -->
-		<main class="morphy">
+<!-- MORPH -->
+<main class="morphy">
 				
 			<div class="morph-wrap">
 				<svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
@@ -355,13 +356,12 @@
 				</div>
 						
 			</div>
+</main>
+<!-- END: MORPH -->
+
 	
-			</main>
-		
-		<!-- /Liquid Canvas -->
-
-
-        <section class="contact-us" id="section-11"> <!-- Start: Contact Us Area, "#SECTION-11" -->
+<!-- CONTACT  -->
+<section class="contact-us" id="section-11"> <!-- Start: Contact Us Area, "#SECTION-11" -->
         	<div class="container">
                 <div class="row contact-us-body">
 
@@ -397,10 +397,11 @@
 
                 </div> <!-- End: .row .contact-us-body  -->
         	</div> <!--  End: .container  -->
-        </section> <!-- End: Contact Us Area, "#SECTION-11" -->
+</section>
+<!-- END: CONTACT -->
 
 
-
+<!-- FOOTER  -->
         <footer class="footer"> <!-- Start: Footer Area  -->
         	<div class="container">
         		<div class="row footer-body btn-scroll">
@@ -408,52 +409,47 @@
                     <!-- Your Icon Goes Here  -->
 					<div class="logo col-lg-6 col-md-6 col-sm-6 col-xs-6">
 						<a href="#" ><img src="images/logo-light.svg" alt="" class="img-responsive"></a>
-						<p>© 2017 <a href="#"><strong>Afterhour Pte Ltd</strong></a>, All Rights Reserved.
-</p>
+						<p>© 2017 <a href="http://www.afterhour.sg">Afterhour Pte Ltd</a> . All Rights Reserved.</p>
 					</div>
 					
         		</div><!-- End: .row .footer-body .btn-scroll  -->
         	</div> <!-- End: .container  -->
-        </footer> <!-- End: Footer Area  -->
+</footer>
+<!-- END: FOOTER  -->
 
 
-        <!-- SCRIPTS -->
-				<!-- Morph -->
-		<script src="js/imagesloaded.pkgd.min.js"></script>
-		<script src="js/scrollMonitor.js"></script>
-		<script src="js/anime.min.js"></script>
-<script src="js/morph.js"></script>
+	<!-- SCRIPTS -->
+	<!-- Morph -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/scrollMonitor.js"></script>
+	<script src="js/anime.min.js"></script>
+	<script src="js/morph.js"></script>
 
-		<!-- Gooey -->
-<script src="js/gooeyocean.js"></script>
-<script src="js/custom.js"></script>
-		<!-- Plugins -->
-        <script src="js/jquery.1.9.1.min.js"></script>      
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.stellar.min.js"></script>
-        <script src="js/jquery.scrollTo.min.js"></script>
-        <script src="js/jquery.localScroll.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>  
-        <script src="js/jquery.nav.js"></script>    
-        <script src="js/wow.min.js"></script>               
-        <script src="js/jquery.nicescroll.min.js"></script>
-        <script src="js/matchMedia.js"></script>
-        <script src="js/navbar.matchMedia.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.countdown.js"></script>
-        <script src="js/fancySelect.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        
-        <script src="js/navbar-custom.js"></script> 
-        <script src="js/custom-scripts.js"></script> 
-
-
-
-
+	<!-- Gooey -->
+	<script src="js/gooeyocean.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- Plugins -->
+	<script src="js/jquery.1.9.1.min.js"></script>      
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.scrollTo.min.js"></script>
+	<script src="js/jquery.localScroll.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>  
+	<script src="js/jquery.nav.js"></script>    
+	<script src="js/wow.min.js"></script>               
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/matchMedia.js"></script>
+	<script src="js/navbar.matchMedia.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.countdown.js"></script>
+	<script src="js/fancySelect.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script src="js/navbar-custom.js"></script> 
+	<script src="js/custom-scripts.js"></script> 
+	
         <!-- CUSTOMIZER :: FOR DEMO ONLY 
         ==========================================-->
         <script src="js/main.js"></script>
-    </body>
-
+</body>
 </html>
