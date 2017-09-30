@@ -126,6 +126,7 @@ a:focus {
 	align-items: center;
 	justify-content: center;
 	pointer-events: none;
+	
 }
 
 .morph {
@@ -143,7 +144,7 @@ a:focus {
 	align-items: center;
 	width: 100%;
 	height: 100vh;
-	min-height: 600px;
+	min-height: 500px;
 	pointer-events: none;
 	color: #fff;
 	z-index: 1;
@@ -171,8 +172,6 @@ a:focus {
 	align-content: center;
 	justify-content: center;
 	padding: 0 2em;
-	min-height: 600px;
-	height: 100vh;
 	font-size: 0.85em;
 	color: #fff;
 }
