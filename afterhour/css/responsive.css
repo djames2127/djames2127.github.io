@@ -50,20 +50,13 @@
 }
 @media (max-width: 991px) {
   body {
-    font-size: 14px;
     text-align: center;
     margin: auto !important;
     overflow-x: hidden;
-    color: #8d8d8d;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
   }
-  h1 {
-    font-size: 34px;
-  }
-  h2 {
-    font-size: 30px;
-  }
+  
   .btn-group .btn-cus {
     float: none;
   }
