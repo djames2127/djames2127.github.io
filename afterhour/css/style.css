@@ -135,7 +135,7 @@ iframe{
   overflow: hidden;
 }
 a{
-	color:rgb(246, 146, 40);
+	color:#7c1f8c;
 	-webkit-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 	-moz-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
 	-o-transition:all 0.125s cubic-bezier( 0.3, 0.1, 0.58, 1 );
@@ -145,7 +145,7 @@ a{
 a:hover, a:focus{
 	text-decoration:none;
 	outline:none;
-	color:rgb(226,128,30);
+	color:#f6921e;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -325,23 +325,7 @@ p, ul, ol, .form-group{
   color: #FFFFFF !important;
   outline: none;
 }
-/*    INPUT FORM PLACEHOLDER COLOR   */
-.search ::-webkit-input-placeholder,
-#register-form ::-webkit-input-placeholder {
-  color: #FFFFFF !important;
-}
-.search :-moz-placeholder,
-#register-form :-moz-placeholder {
-  color: #FFFFFF !important;
-}
-.search ::-moz-placeholder,
-#register-form ::-moz-placeholder {
-  color: #FFFFFF !important;
-}
-.search :-ms-input-placeholder,
-#register-form :-ms-input-placeholder {
-  color: #FFFFFF !important;
-}
+
 /*
  ********************************
  *
@@ -354,13 +338,16 @@ p, ul, ol, .form-group{
   background-size: cover;
   background-repeat: no-repeat;
 	height: 100vh;
-	
+	    
+    
 
 }
 .header,
 .header-body {
-  overflow: hidden;
-z-index:1;
+	position: relative; /* used to hide morph */
+	z-index: 1;  /* used to hide morph */
+  	overflow: hidden;
+
 	}
 
 .header-logo{
@@ -391,6 +378,9 @@ z-index:1;
   -moz-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
+	
+	z-index: 1;  /* used to hide morph */
+	
 }
 .header-navbar .navbar {
   background-color: transparent!important;
@@ -563,8 +553,8 @@ z-index:1;
  *  
  */
 .about-our-event {
-  position: relative;
-	z-index: 1;
+	position: relative; /* used to hide morph */
+	z-index: 1;  /* used to hide morph */
 }
 .about-our-event-left h2 {
   margin-top: -12px;
@@ -619,6 +609,8 @@ z-index:1;
  *  
  */
 .our-featured-speaker {
+	position: relative; /* used to hide morph */
+	z-index: 1;  /* used to hide morph */
   background: #f1f1f2;
 	text-align: center;
 color: #4e5a65;
@@ -651,7 +643,9 @@ color: #4e5a65;
  *  
  */
 .scedule-background {
-  background: url('images/bg-3.jpg') top center fixed;
+	position: relative; /* used to hide morph */
+	z-index: 1;  /* used to hide morph */	
+  background: url('/images/bg-4.jpg') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -722,6 +716,7 @@ color: #4e5a65;
  *  
  */
 .speakers {
+	
   background: #323232;
 }
 .speakers-body h2 {
@@ -826,6 +821,8 @@ color: #4e5a65;
  * 
  */
 .register-background {
+	position: relative; /* used to hide morph */
+	z-index: 1;  /* used to hide morph */	
   background: url('../images/bg-4.jpg') top center fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -833,6 +830,14 @@ color: #4e5a65;
 .register-body {
   color: #fff;
   text-align: center;
+}
+
+.register a{
+	color: #fff;
+}
+
+.register a:hover{
+	color: #f6921e;
 }
 .input-group {
   margin-top: 30px;
@@ -1191,6 +1196,8 @@ color: #4e5a65;
 *   class: "footer"
 */
 footer {
+	position: relative; /* used to hide morph */
+	z-index: 1;  /* used to hide morph */	
   background: #1f1e25;
   overflow: hidden;
 }
