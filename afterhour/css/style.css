@@ -333,6 +333,8 @@ p, ul, ol, .form-group{
  *  
  *  
  */
+
+
 .header-background {
   background: url('../images/bg-1.jpg') top center fixed;
   background-size: cover;
@@ -345,7 +347,7 @@ p, ul, ol, .form-group{
 .header,
 .header-body {
 	position: relative; /* used to hide morph */
-	z-index: 1;  /* used to hide morph */
+	z-index: 2;  /* used to hide morph */
   	overflow: hidden;
 
 	}
@@ -379,7 +381,7 @@ p, ul, ol, .form-group{
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
 	
-	z-index: 1;  /* used to hide morph */
+	
 	
 }
 .header-navbar .navbar {
@@ -1514,4 +1516,66 @@ gooeyocean
 
 #gooey > svg{
   display:none;
+}
+
+
+
+/*
+Bubbles
+*/
+
+
+#bubbles1, #bubbles2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-filter: url("#goo");
+    filter: url("#goo");
+}
+
+
+
+
+/**THE SAME CSS IS USED IN ALL 3 DEMOS**/    
+/**gallery margins**/  
+ul.gallery{    
+margin-left: 10vw;     
+margin-right:10vw;  
+}    
+
+.zoom {      
+-webkit-transition: all 0.50s ease-in-out;    
+-moz-transition: all 0.50s ease-in-out;    
+transition: all 0.50s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in; 
+	
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(1.3);    
+-moz-transform: scale(1.3);  
+-webkit-transform: scale(1.3);  
+-o-transform: scale(1.3);  
+transform: scale(1.3);    
+position:relative;      
+z-index:100;  
+}
+
+/**To keep upscaled images visible on mobile, 
+increase left & right margins a bit**/  
+@media only screen and (max-width: 768px) {   
+ul.gallery {      
+margin-left: 15vw;       
+margin-right: 15vw;
+}
+
+/**TIP: Easy escape for touch screens,
+give gallery's parent container a cursor: pointer.**/
+.DivName {cursor: pointer}
 }
