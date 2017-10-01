@@ -1,33 +1,36 @@
-
-
-
-
-/*  COLOR    */
 /*
  ********************************
  *
  *  Defult CSS
  */
+
 .overlay-color {
-  background-color: rgba(34, 8, 38, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    /* used to hide morph */
+}
+.overlay-color-light {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    /* used to hide morph */
 }
 .btn-group .btn-fill {
-  background: #7c1f8c !important;
-  border-color: #7c1f8c !important;
+    background: #7c1f8c !important;
+    border-color: #7c1f8c !important;
 }
 .btn-group .btn-fill:hover,
 .btn-group .btn-fill:focus,
 .btn-group .btn-fill:active,
 .btn-group .btn-fill.active {
-  background: #e30000 !important;
-  border-color: #e30000 !important;
+    background: #e30000 !important;
+    border-color: #e30000 !important;
 }
 .btn-group .btn-border:hover,
 .btn-group .btn-border:focus,
 .btn-group .btn-border:active,
 .btn-group .btn-border.active {
-  background: #e30000 !important;
-  border-color: #e30000 !important;
+    background: #e30000 !important;
+    border-color: #e30000 !important;
 }
 /*
  ********************************
@@ -35,8 +38,9 @@
  *  Header CSS
  *  
  */
+
 .header-navbar #myNavbar .active > a {
-  border-bottom-color: #7c1f8c;
+    border-bottom-color: #7c1f8c;
 }
 /*
  ********************************
@@ -44,11 +48,12 @@
  *  About Our Event CSS
  *  
  */
+
 .about-our-event-left h2 {
-  color: #fff;
+    color: #fff;
 }
 .background-right-overlay-color {
-  background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
 }
 /*
  ********************************
@@ -56,8 +61,9 @@
  *  our featured speaker CSS
  *  
  */
+
 .our-featured-speaker-right h2 {
-  color: #4e5a65;
+    color: #4e5a65;
 }
 /*
  ********************************
@@ -65,16 +71,17 @@
  *  Scedule CSS
  *  
  */
+
 .scedule-main .active .btn-border {
-  background: #7c1f8c;
-  border-color: #7c1f8c;
+    background: #7c1f8c;
+    border-color: #7c1f8c;
 }
 .nav-cus .active a {
-  border-left-color: #7c1f8c !important;
+    border-left-color: #7c1f8c !important;
 }
 .nav-cus a:focus,
 .nav-cus a:hover {
-  border-left-color: #7c1f8c !important;
+    border-left-color: #7c1f8c !important;
 }
 /*
  ********************************
@@ -82,14 +89,15 @@
  *  Speakers CSS
  *  
  */
+
 .speakers-body h2 {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 .speakers-body .item a {
-  color: #7c1f8c !important;
+    color: #7c1f8c !important;
 }
 .speakers-body .item h3 {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 /*
  ********************************
@@ -97,11 +105,12 @@
  *  Pricing Tables CSS
  *  
  */
+
 .table-single p {
-  background: #7c1f8c;
+    background: #7c1f8c;
 }
 .pricing-tables-left .active .btn-border {
-  border-color: #7c1f8c;
+    border-color: #7c1f8c;
 }
 /*
  ********************************
@@ -109,11 +118,12 @@
  *  Register CSS
  *  
  */
+
 .input-group .btn-fill {
-  background-color: #7c1f8c;
+    background-color: #7c1f8c;
 }
 .input-group .btn-fill:hover {
-  background-color: #e30000;
+    background-color: #e30000;
 }
 /*
  ********************************
@@ -122,8 +132,9 @@
  *  class: "sponsore"
  *  id: "section-7"
  */
+
 .sponsore-body h2 {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 /*
  ********************************
@@ -131,12 +142,13 @@
  *  Collapse CSS
  *  
  */
+
 .collapse-right h2 {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 .collapse-right .panel-title a .bar,
 .collapse-right .panel-title a .bar:after {
-  border-color: #7c1f8c;
+    border-color: #7c1f8c;
 }
 /*
  ********************************
@@ -144,11 +156,12 @@
  *  Testimonial CSS
  *  
  */
+
 .testimonial-body .tab-content .active h3 {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 .testimonial-body .nav-cus .active a {
-  border-left-color: #7c1f8c !important;
+    border-left-color: #7c1f8c !important;
 }
 /*
  ********************************
@@ -156,18 +169,19 @@
  *  Contact Us CSS
  *  
  */
+
 .contact-us-left h2 {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 .contact-us-left p a:hover,
 .contact-us-left p a:active,
 .contact-us-left p a:focus {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 .social-icon a:hover,
 .social-icon a:focus,
 .social-icon a:active {
-  background: #7c1f8c !important;
+    background: #7c1f8c !important;
 }
 /*
 ******************************************
@@ -175,8 +189,9 @@
 *   Footer CSS
 *  
 */
+
 footer .btn-top:hover {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 /************************************************
 *
@@ -190,63 +205,67 @@ footer .btn-top:hover {
  *  
  */
 /*     blog-post CSS     */
+
 .blog-body .post-date {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 .comments span {
-  color: #7c1f8c;
+    color: #7c1f8c;
 }
 aside ul li a:hover,
 aside ul li a:focus {
-  color: #e30000;
+    color: #e30000;
 }
 aside ul li a:hover span,
 aside ul li a:focus span {
-  color: #e30000;
+    color: #e30000;
 }
 /******************************************/
 /*  Media screen                          */
 /******************************************/
+
 @media (max-width: 991px) {
-  /*
+    /*
      ********************************
      *
      *  Scedule CSS
      *  
      */
-  .dropdown .label:hover,
-  .dropdown ul li:hover,
-  .dropdown .label:hover,
-  .dropdown ul li:hover {
-    background: #7c1f8c;
-  }
-  .dropdown .label:hover {
-    border-color: #7c1f8c;
-  }
-  .nav-cus .active a {
-    color: #7c1f8c !important;
-    border-left-color: #7c1f8c !important;
-  }
-  .nav-cus .active .nav-header,
-  .nav-cus .active .nav-time {
-    color: #7c1f8c !important;
-  }
-  /*
+    
+    .dropdown .label:hover,
+    .dropdown ul li:hover,
+    .dropdown .label:hover,
+    .dropdown ul li:hover {
+        background: #7c1f8c;
+    }
+    .dropdown .label:hover {
+        border-color: #7c1f8c;
+    }
+    .nav-cus .active a {
+        color: #7c1f8c !important;
+        border-left-color: #7c1f8c !important;
+    }
+    .nav-cus .active .nav-header,
+    .nav-cus .active .nav-time {
+        color: #7c1f8c !important;
+    }
+    /*
      ********************************
      *
      *  Testimonial CSS
      *  
      */
-  .testimonial-body .dropdown .label:hover,
-  .testimonial-body .dropdown ul li:hover,
-  .testimonial-body .dropdown .label:hover,
-  .testimonial-body .dropdown ul li:hover {
-    background: #7c1f8c;
-  }
-  .testimonial-body .dropdown .label {
-    color: #7c1f8c;
-    border-color: #7c1f8c;
-  }
+    
+    .testimonial-body .dropdown .label:hover,
+    .testimonial-body .dropdown ul li:hover,
+    .testimonial-body .dropdown .label:hover,
+    .testimonial-body .dropdown ul li:hover {
+        background: #7c1f8c;
+    }
+    .testimonial-body .dropdown .label {
+        color: #7c1f8c;
+        border-color: #7c1f8c;
+    }
 }
 /*
 ******************************************
@@ -254,11 +273,12 @@ aside ul li a:focus span {
 *   IMAGE HOVER EFFECT CUSTOM CSS
 *    
 */
+
 .view-first .mask {
-  background-color: rgba(90, 22, 102, 0.6);
+    background-color: rgba(90, 22, 102, 0.6);
 }
 .mask ul li a:hover {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 /*
 ******************************************
@@ -266,8 +286,9 @@ aside ul li a:focus span {
 *   NICE SCROLL CUSTOM CSS
 *    
 */
+
 .nicescroll-rails > div {
-  background-color: #7c1f8c !important;
+    background-color: #7c1f8c !important;
 }
 /*
 ******************************************
@@ -275,10 +296,11 @@ aside ul li a:focus span {
 *   FLEX SLIDER CSS
 *    
 */
+
 a.next:hover,
 a.prev:hover {
-  background-color: #7c1f8c !important;
-  border-color: #7c1f8c;
+    background-color: #7c1f8c !important;
+    border-color: #7c1f8c;
 }
 /*
 ******************************************
@@ -286,6 +308,7 @@ a.prev:hover {
 *   PRELOADER CSS
 *    
 */
+
 .bubblingG span {
-  background: #7c1f8c;
+    background: #7c1f8c;
 }
