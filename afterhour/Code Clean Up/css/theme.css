@@ -1,0 +1,154 @@
+/*[Master Stylesheet]*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot');
+    src: url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff2') format('woff2'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.woff') format('woff'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.ttf') format('truetype'), url('../fonts/nexa_boldfree_macroman/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+}
+
+/*! -----------------------------------------------------------------
+
+Project:     Afterhour.sg (http://www.afterhour.sg)
+Version:     1.0
+Year:		 2017
+Creator:	 Nubrink Design
+
+------------------------------------------------------------------*/
+
+/* THEME: Colours */
+
+/* Afterhour Company Colours*/
+
+.light-purple {
+    color: #7c1f8c;
+}
+.mid-purple {
+    color: #5a1666;
+}
+.dark-purple {
+    color: #44114d;
+}
+.black-purple {
+    color: #220826;
+}
+.orange {
+    color: #f6921e;
+}
+.light-grey {
+    color: #708090;
+}
+.mid-grey {
+    color: #4e5a65;
+}
+.teal {
+    color: #00a69c;
+}
+
+/* Afterhour Company Colours*/
+:root{
+--purple-1: #7c1f8c;
+--purple-2: #5a1666;
+--purple-3: #44114d;
+--purple-4: #220826;
+
+--grey-1: 	#708090;
+--grey-2:	#4e5a65;
+}
+
+/* HIGHLIGHT */
+
+::-moz-selection { 
+    
+    color: #fff;
+    background: #7c1f8c;
+}
+::selection {
+    color: #fff;
+    background: #7c1f8c;
+}
+
+
+/* GENERAL */
+
+
+
+html,
+body {
+	background-color: var (--purple-4);
+	color: var (--grey-2);
+	
+	font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+	letter-spacing: 0.80px;
+}
+
+
+body {
+
+}
+
+
+a{
+	color: var (--purple-1);
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    border: 0;
+}
+
+
+
+
+/* PRELOADER */
+.bubblingG span {
+    background: var(--purple-1);
+	opacity: .99;
+}
+
+
+/* BUTTONS */
+
+
+
+/* HEADER */
+
+header{
+	
+}
+
+/* NAVIGATION */
+
+/* ABOUT */
+
+/* FOOTER */
+
+
+footer{
+}
+	
+footer a{
+	color: var (--purple-1);
+	}
+	

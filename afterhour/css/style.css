@@ -946,8 +946,9 @@ footer {
     z-index: 1;
     /* used to hide morph */
     
-    background: #1f1e25;
+    background: #000;
     overflow: hidden;
+	text-transform: uppercase;
 }
 footer a {
     color: #7c1f8c;
@@ -956,7 +957,7 @@ footer .logo {
     margin-top: 12px;
 }
 footer .btn-top {
-    background-color: #3B3938;
+   
     padding: 10px 19px;
     text-align: right !important;
     float: right;
