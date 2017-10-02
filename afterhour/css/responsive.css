@@ -207,47 +207,7 @@
     color: #242429;
   }
   /*
-	 ********************************
-	 *
-	 *  Testimonial CSS
-	 *  
-	 */
-  .testimonial-body .dropdown label:hover,
-  .testimonial-body .dropdown ul li:hover,
-  .testimonial-body .dropdown label:hover,
-  .testimonial-body .dropdown ul li:hover {
-    cursor: pointer;
-    transition: all 0.8s;
-  }
-  .testimonial-body .dropdown label:hover .nav-header,
-  .testimonial-body .dropdown ul li:hover .nav-header,
-  .testimonial-body .dropdown label:hover .nav-header,
-  .testimonial-body .dropdown ul li:hover .nav-header,
-  .testimonial-body .dropdown label:hover .nav-time,
-  .testimonial-body .dropdown ul li:hover .nav-time,
-  .testimonial-body .dropdown label:hover .nav-time,
-  .testimonial-body .dropdown ul li:hover .nav-time {
-    color: #FFFFFF !important;
-  }
-  .testimonial-body .dropdown label:hover {
-    color: #FFFFFF;
-  }
-  .testimonial-body .testimonial-img {
-    margin-top: 50px;
-  }
-  .testimonial-body .tab-content .tab-pane p {
-    display: block;
-  }
-  /*
-	********************************
-	*
-	*  Pricing Tables CSS
-	*  
-	*/
-  .table-single .btn-group {
-    display: inline-block;
-  }
-  /*
+
 	 ********************************
 	 *
 	 *  Contact Us CSS
@@ -279,20 +239,5 @@
   }
   aside ul .number {
     text-align: right !important;
-  }
-}
-@media (max-width: 991px) {
-  /*
-	********************************
-	*
-	*  header CSS
-	*  
-	*/
-  .blog-header {
-    margin-top: 0px;
-  }
-  .blog-header .input-group {
-    float: none;
-    display: inline-block;
   }
 }
