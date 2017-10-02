@@ -58,11 +58,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-div:first-child {
-    /* Rule for Z-Index */
-    
-    opacity: .99;
-}
+
 /* [General Styles] */
 
 body {
@@ -320,11 +316,8 @@ ol,
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
-    /* used to hide morph */
-    
-    z-index: 2;
-    /* used to hide morph */
+    position: relative;/* used to hide morph */
+    z-index: 2;/* used to hide morph */
 }
 .header,
 .header-body {
@@ -522,9 +515,7 @@ ol,
     color: #FFFFFF;
     text-align: justify;
 }
-.buy-tricket .btn-group .btn-fill {
-    color: #FFFFFF;
-}
+
 /*
  ********************************
  *
