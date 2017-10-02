@@ -6,7 +6,8 @@
 
 .overlay-color {
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: relative;
+	height: 100vh;
     /* used to hide morph */
 }
 .overlay-color-light {

@@ -313,10 +313,12 @@ ol,
  */
 
 .header-background {
-    background: url('../images/bg-1.jpg') top center fixed;
-    background-size: cover;
+    background: url('../images/bg-1.jpg')  center center;
+    height: 100vh;
+	top: 0;
     background-repeat: no-repeat;
-    height: 100vh
+    background-size: cover;
+    overflow: hidden;
 }
 .header,
 .header-body {
