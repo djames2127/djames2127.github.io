@@ -14,7 +14,7 @@
 /* [General Styles] */
 
 main {
-    position: relative;
+        position: relative;/* used to hide morph */
     width: 100%;
     overflow: hidden;
 }
@@ -58,7 +58,7 @@ a:focus {
 
 .morph-wrap {
     position: fixed;
-    top: 0;
+    top: -10px; /* Original: 0 */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -67,9 +67,11 @@ a:focus {
     align-items: center;
     justify-content: center;
     pointer-events: none;
+	 
 }
 .morph {
     position: relative;
+	z-index: -90; /* Original: Remove */
     height: 100%;
     fill: var(--background-color-2);
     flex: none;
