@@ -212,3 +212,8 @@ window.onload = function () {
     //Start the initial loop function for the first time
     application.loop();
 };
+
+
+
+
+
