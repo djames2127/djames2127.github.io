@@ -4615,11 +4615,11 @@ add browser prefixes**/
 .zoom:focus {
     /**adjust for mobile*/
     
-    -ms-transform: scale(2.3);
-    -moz-transform: scale(2.3);
-    -webkit-transform: scale(2.3);
-    -o-transform: scale(2.3);
-    transform: scale(2.3);
+    -ms-transform: scale(1..8);
+    -moz-transform: scale(1.8);
+    -webkit-transform: scale(1.8);
+    -o-transform: scale(1.8);
+    transform: scale(1.8);
     position: relative;
     z-index: 100;
 }
@@ -4644,20 +4644,6 @@ give gallery's parent container a cursor: pointer.**/
 /* ------------------------------------------------------------------------------
 	Countdown Timer
 -------------------------------------------------------------------------------*/
-
-
-
-.item {
-	display: inline-block;
-	position: relative;
-	text-align:center;
-	margin:0 10px;
-	padding:2%;
-	text-transform:uppercase;
-	font-size:13px;
-	border-top:1px solid rgba(255, 255, 255, 0.1);
-	border-bottom:1px solid rgba(255, 255, 255, 0.1);
-}
 
 
 #counter {
