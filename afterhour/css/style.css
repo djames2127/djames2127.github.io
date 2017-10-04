@@ -5,6 +5,42 @@
 @import url("./plugin/jquery.fs.tipper.css");
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
 
+
+/* Afterhour Company Colours*/
+
+.light-purple {
+    color: #7c1f8c;
+}
+.mid-purple {
+    color: #5a1666;
+}
+.dark-purple {
+    color: #44114d;
+}
+.black-purple {
+    color: #220826;
+}
+.orange {
+    color: #f6921e;
+}
+.light-grey {
+    color: #708090;
+}
+.mid-grey {
+    color: #4e5a65;
+}
+.teal {
+    color: #00a69c;
+}
+
+
+
+
+
+
+
+
+
 /* 
 * BASIC STYLE
   - General Style    
@@ -4654,6 +4690,7 @@ give gallery's parent container a cursor: pointer.**/
 #counter {
 	padding:0;
 	margin-top:5px;
+	 z-index: 100;
 }
 
        /* counter clock css */
@@ -4682,7 +4719,7 @@ give gallery's parent container a cursor: pointer.**/
                 }
 
                 ul.countdown li p {
-                    color: rgba(255, 255, 255, 0.5);;
+                    color: rgba(255, 255, 255, 0.8);;
 					text-transform: uppercase;
                     font-size: 12px;
                 }
