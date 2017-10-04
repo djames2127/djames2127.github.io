@@ -403,6 +403,11 @@ h1.large {
 }
 
 /*Button Style   ||-----------*/
+
+.btn-box-shadow{
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
 .btn:focus {
     outline: none;
 }
@@ -1284,6 +1289,10 @@ form label.error {
     }
 }
 
+.header-btn-dwn{
+	opacity: 0.6;
+}
+
 
 /*------------------------------------------------------------------*/
 /* Logo Style */
@@ -1360,10 +1369,10 @@ form label.error {
     display: block;
     font-size: 12px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     outline: none;
-    letter-spacing: 1px;
+    letter-spacing: 4px;
     transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -o-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
     -moz-transition: all 0.27s cubic-bezier(0, 0, 0.58, 1) 0s;
@@ -2419,6 +2428,16 @@ header.header-dark.header-prepare .side-menu-btn ul li a {
 /*-------------------------------------------------------------------------------------------*/
 /*  Pricing       ||---------------------------- */
 /*-------------------------------------------------------------------------------------------*/
+
+.housepour{
+	margin-left: 30px;
+}
+.housepour-list{
+	 list-style: none;
+        padding: 0px;
+        margin: 0px;
+	text-align: left;
+}
 
 .Pricing-box {
     border: 1px solid #f1f1f1;
