@@ -4566,8 +4566,13 @@ ul.project-detail-block, .project-detail-block ul {
 
 
 
+/* ----------------------------------*/
+/* ABOUT */
+/* ----------------------------------*/
 
-
+#about {
+	background-color: #f1f1f2;
+}
 
 
 
